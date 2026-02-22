@@ -15,7 +15,13 @@ def build_reasoning_prompt(trigger, evidence, project_context):
     """
     import json
 
-    metrics = json.loads(trigger["metrics_json"]) if trigger["metrics_json"] else {}
+    # Support both JSONL records (metrics is dict) and SQLite rows (metrics_json is string)
+    if isinstance(trigger.get("metrics"), dict):
+        metrics = trigger["metrics"]
+    elif trigger.get("metrics_json"):
+        metrics = json.loads(trigger["metrics_json"])
+    else:
+        metrics = {}
 
     prompt = f"""You are an expert HVAC construction financial analyst. Analyze this trigger event and provide structured reasoning.
 

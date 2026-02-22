@@ -37,8 +37,18 @@ def _parse_json_response(text):
 
 
 def _build_fallback_from_metrics(trigger):
-    """Build reasonable fallback reasoning from trigger metrics alone."""
-    metrics = json.loads(trigger["metrics_json"]) if trigger["metrics_json"] else {}
+    """Build reasonable fallback reasoning from trigger metrics alone.
+
+    Accepts both SQLite row dicts (with metrics_json string) and
+    JSONL record dicts (with metrics dict already parsed).
+    """
+    # Support both formats: pre-parsed dict or raw JSON string
+    if isinstance(trigger.get("metrics"), dict):
+        metrics = trigger["metrics"]
+    elif trigger.get("metrics_json"):
+        metrics = json.loads(trigger["metrics_json"])
+    else:
+        metrics = {}
     trigger_type = trigger["type"]
 
     if trigger_type == "LABOR_OVERRUN":

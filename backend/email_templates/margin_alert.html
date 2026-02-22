@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ subject }}</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: {{ header_color }};
+            color: #ffffff;
+            padding: 24px 32px;
+        }
+        .header h1 {
+            margin: 0 0 4px 0;
+            font-size: 20px;
+        }
+        .header .subtitle {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #fff;
+            margin-right: 8px;
+        }
+        .badge-red { background-color: #ef4444; }
+        .badge-yellow { background-color: #eab308; }
+        .badge-green { background-color: #22c55e; }
+        .content {
+            padding: 32px;
+        }
+        .metrics-grid {
+            display: table;
+            width: 100%;
+            margin: 16px 0 24px;
+        }
+        .metric-row {
+            display: table-row;
+        }
+        .metric-label, .metric-value {
+            display: table-cell;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .metric-label {
+            color: #666;
+            font-size: 14px;
+            width: 50%;
+        }
+        .metric-value {
+            font-weight: 600;
+            font-size: 14px;
+            text-align: right;
+        }
+        .metric-value.negative { color: #ef4444; }
+        .metric-value.positive { color: #22c55e; }
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1f2937;
+            margin: 24px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        .trigger-item {
+            background-color: #f9fafb;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid {{ header_color }};
+        }
+        .trigger-headline {
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+        .trigger-detail {
+            font-size: 13px;
+            color: #4b5563;
+            margin-bottom: 4px;
+        }
+        .recovery-box {
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 24px;
+        }
+        .recovery-box h3 {
+            color: #166534;
+            margin: 0 0 8px;
+            font-size: 15px;
+        }
+        .recovery-box li {
+            font-size: 13px;
+            color: #15803d;
+            margin-bottom: 6px;
+        }
+        .footer {
+            padding: 20px 32px;
+            background-color: #f9fafb;
+            text-align: center;
+            font-size: 12px;
+            color: #9ca3af;
+        }
+        .footer strong {
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h1>{{ project_name }}</h1>
+            <div class="subtitle">
+                <span class="badge badge-{{ status_class }}">{{ status }}</span>
+                Health Score: {{ health_score }}/100
+            </div>
+        </div>
+
+        <div class="content">
+            {{ body_html|safe }}
+        </div>
+
+        <div class="footer">
+            <strong>HVAC Margin Rescue Agent</strong><br>
+            AI-powered construction financial analysis<br>
+            Generated {{ generated_at }}
+        </div>
+    </div>
+</body>
+</html>

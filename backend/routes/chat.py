@@ -1,10 +1,12 @@
-"""Chat endpoint — streaming SSE chat with tool-calling via Claude Haiku."""
+"""Chat endpoint — streaming SSE chat with tool-calling via OpenAI."""
 
 import json
 import os
 
 from fastapi import APIRouter, Request
 from fastapi.responses import StreamingResponse
+
+from openai import OpenAI
 
 from backend.db.connection import get_db
 from backend.tools.field_notes import get_field_notes
@@ -16,87 +18,107 @@ from backend.tools.send_email import send_email
 
 router = APIRouter()
 
-# Tool definitions for Claude
+MODEL = "gpt-4o-mini"
+
+# OpenAI function definitions
 TOOLS = [
     {
-        "name": "get_field_notes",
-        "description": "Search field notes for a project. Can filter by date range and keyword.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "project_id": {"type": "string", "description": "Project ID"},
-                "date_from": {"type": "string", "description": "Start date YYYY-MM-DD"},
-                "date_to": {"type": "string", "description": "End date YYYY-MM-DD"},
-                "keyword": {"type": "string", "description": "Keyword to search in note content"},
-            },
-            "required": ["project_id"],
-        },
-    },
-    {
-        "name": "get_labor_detail",
-        "description": "Get labor hours and costs for a project, broken down by SOV line and role.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "project_id": {"type": "string", "description": "Project ID"},
-                "sov_line_id": {"type": "string", "description": "Optional SOV line ID to filter"},
-            },
-            "required": ["project_id"],
-        },
-    },
-    {
-        "name": "get_co_detail",
-        "description": "Get change order details for a project, optionally filtered by CO number.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "project_id": {"type": "string", "description": "Project ID"},
-                "co_number": {"type": "string", "description": "Optional CO number to filter"},
-            },
-            "required": ["project_id"],
-        },
-    },
-    {
-        "name": "get_rfi_detail",
-        "description": "Get RFI details for a project, optionally filtered by RFI number.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "project_id": {"type": "string", "description": "Project ID"},
-                "rfi_number": {"type": "string", "description": "Optional RFI number to filter"},
-            },
-            "required": ["project_id"],
-        },
-    },
-    {
-        "name": "what_if_margin",
-        "description": "Run a what-if margin scenario: co_rejected, co_approved, or labor_recovery.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "project_id": {"type": "string", "description": "Project ID"},
-                "scenario": {
-                    "type": "string",
-                    "enum": ["co_rejected", "co_approved", "labor_recovery"],
-                    "description": "Scenario to run",
+        "type": "function",
+        "function": {
+            "name": "get_field_notes",
+            "description": "Search field notes for a project. Can filter by date range and keyword.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "project_id": {"type": "string", "description": "Project ID"},
+                    "date_from": {"type": "string", "description": "Start date YYYY-MM-DD"},
+                    "date_to": {"type": "string", "description": "End date YYYY-MM-DD"},
+                    "keyword": {"type": "string", "description": "Keyword to search in note content"},
                 },
-                "co_number": {"type": "string", "description": "CO number (required for co_rejected/co_approved)"},
+                "required": ["project_id"],
             },
-            "required": ["project_id", "scenario"],
         },
     },
     {
-        "name": "send_email",
-        "description": "Send a margin alert email for a project. Composes and stores the email.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "project_id": {"type": "string", "description": "Project ID"},
-                "to": {"type": "string", "description": "Recipient email address"},
-                "subject": {"type": "string", "description": "Email subject line"},
-                "body": {"type": "string", "description": "Email body (markdown)"},
+        "type": "function",
+        "function": {
+            "name": "get_labor_detail",
+            "description": "Get labor hours and costs for a project, broken down by SOV line and role.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "project_id": {"type": "string", "description": "Project ID"},
+                    "sov_line_id": {"type": "string", "description": "Optional SOV line ID to filter"},
+                },
+                "required": ["project_id"],
             },
-            "required": ["project_id", "to", "subject", "body"],
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_co_detail",
+            "description": "Get change order details for a project, optionally filtered by CO number.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "project_id": {"type": "string", "description": "Project ID"},
+                    "co_number": {"type": "string", "description": "Optional CO number to filter"},
+                },
+                "required": ["project_id"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_rfi_detail",
+            "description": "Get RFI details for a project, optionally filtered by RFI number.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "project_id": {"type": "string", "description": "Project ID"},
+                    "rfi_number": {"type": "string", "description": "Optional RFI number to filter"},
+                },
+                "required": ["project_id"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "what_if_margin",
+            "description": "Run a what-if margin scenario: co_rejected, co_approved, or labor_recovery.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "project_id": {"type": "string", "description": "Project ID"},
+                    "scenario": {
+                        "type": "string",
+                        "enum": ["co_rejected", "co_approved", "labor_recovery"],
+                        "description": "Scenario to run",
+                    },
+                    "co_number": {"type": "string", "description": "CO number (required for co_rejected/co_approved)"},
+                },
+                "required": ["project_id", "scenario"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "send_email",
+            "description": "Send a margin alert email for a project. Composes and stores the email.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "project_id": {"type": "string", "description": "Project ID"},
+                    "to": {"type": "string", "description": "Recipient email address"},
+                    "subject": {"type": "string", "description": "Email subject line"},
+                    "body": {"type": "string", "description": "Email body (markdown)"},
+                },
+                "required": ["project_id", "to", "subject", "body"],
+            },
         },
     },
 ]
@@ -121,7 +143,7 @@ def _load_dossier_context(project_id: str) -> str:
     if not row:
         return f"No dossier found for project {project_id}."
     dossier = json.loads(row["dossier_json"])
-    # Trim evidence and reasoning to keep context lean
+    # Trim evidence to keep context lean
     for t in dossier.get("triggers", []):
         t.pop("evidence", None)
         if "reasoning" in t:
@@ -149,7 +171,6 @@ def _build_system_prompt(project_id: str | None) -> str:
         context = _load_dossier_context(project_id)
         base += f"\nCurrent project dossier (pre-analyzed):\n{context}\n"
 
-    # Load portfolio context for portfolio-level questions
     if project_id == "PORTFOLIO" or not project_id:
         db = get_db()
         row = db.execute(
@@ -163,103 +184,85 @@ def _build_system_prompt(project_id: str | None) -> str:
 
 @router.post("/api/chat")
 async def chat(request: Request):
-    """Streaming chat endpoint. Expects JSON body: {project_id, messages}."""
+    """Streaming chat endpoint using OpenAI. Expects JSON: {project_id, messages}."""
     body = await request.json()
     project_id = body.get("project_id")
     messages = body.get("messages", [])
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        return {"error": "ANTHROPIC_API_KEY not set", "reply": _fallback_reply(messages)}
+        return {"error": "OPENAI_API_KEY not set", "reply": _fallback_reply(messages)}
 
-    import anthropic
-
-    client = anthropic.Anthropic(api_key=api_key)
+    client = OpenAI(api_key=api_key)
     system_prompt = _build_system_prompt(project_id)
 
+    # Prepend system message
+    oai_messages = [{"role": "system", "content": system_prompt}] + messages
+
     async def event_stream():
-        nonlocal messages
-        # Agentic loop: keep going while Claude wants to use tools
+        nonlocal oai_messages
         max_iterations = 5
+
         for _ in range(max_iterations):
-            response = client.messages.create(
-                model="claude-haiku-4-20250414",
-                max_tokens=2048,
-                system=system_prompt,
+            response = client.chat.completions.create(
+                model=MODEL,
+                messages=oai_messages,
                 tools=TOOLS,
-                messages=messages,
+                max_tokens=2048,
             )
 
-            # Check if we need to handle tool use
-            has_tool_use = any(b.type == "tool_use" for b in response.content)
+            choice = response.choices[0]
+            msg = choice.message
 
-            if not has_tool_use:
-                # Pure text response — stream it out
-                for block in response.content:
-                    if block.type == "text":
-                        yield f"data: {json.dumps({'type': 'text', 'content': block.text})}\n\n"
+            # If no tool calls, return the text
+            if not msg.tool_calls:
+                if msg.content:
+                    yield f"data: {json.dumps({'type': 'text', 'content': msg.content})}\n\n"
                 yield f"data: {json.dumps({'type': 'done'})}\n\n"
                 return
 
             # Process tool calls
-            assistant_content = []
-            tool_results = []
+            oai_messages.append(msg.model_dump())
 
-            for block in response.content:
-                if block.type == "text":
-                    yield f"data: {json.dumps({'type': 'text', 'content': block.text})}\n\n"
-                    assistant_content.append({"type": "text", "text": block.text})
-                elif block.type == "tool_use":
-                    tool_name = block.name
-                    tool_input = block.input
-                    yield f"data: {json.dumps({'type': 'tool_call', 'name': tool_name, 'input': tool_input})}\n\n"
+            for tool_call in msg.tool_calls:
+                fn_name = tool_call.function.name
+                fn_args = json.loads(tool_call.function.arguments)
 
-                    assistant_content.append({
-                        "type": "tool_use",
-                        "id": block.id,
-                        "name": tool_name,
-                        "input": tool_input,
-                    })
+                yield f"data: {json.dumps({'type': 'tool_call', 'name': fn_name, 'input': fn_args})}\n\n"
 
-                    # Execute tool
-                    fn = TOOL_DISPATCH.get(tool_name)
-                    if fn:
-                        try:
-                            result = fn(**tool_input)
-                        except Exception as e:
-                            result = {"error": str(e)}
-                    else:
-                        result = {"error": f"Unknown tool: {tool_name}"}
+                fn = TOOL_DISPATCH.get(fn_name)
+                if fn:
+                    try:
+                        result = fn(**fn_args)
+                    except Exception as e:
+                        result = {"error": str(e)}
+                else:
+                    result = {"error": f"Unknown tool: {fn_name}"}
 
-                    # Truncate large results
-                    result_str = json.dumps(result)
-                    if len(result_str) > 8000:
-                        result_str = result_str[:8000] + '..."}'
+                result_str = json.dumps(result)
+                if len(result_str) > 8000:
+                    result_str = result_str[:8000] + '..."}'
 
-                    tool_results.append({
-                        "type": "tool_result",
-                        "tool_use_id": block.id,
-                        "content": result_str,
-                    })
+                oai_messages.append({
+                    "role": "tool",
+                    "tool_call_id": tool_call.id,
+                    "content": result_str,
+                })
 
-            # Add assistant message + tool results to conversation
-            messages.append({"role": "assistant", "content": assistant_content})
-            messages.append({"role": "user", "content": tool_results})
+            # If there was text content alongside tool calls, stream it
+            if msg.content:
+                yield f"data: {json.dumps({'type': 'text', 'content': msg.content})}\n\n"
 
-        # Safety: if we hit max iterations
-        yield f"data: {json.dumps({'type': 'text', 'content': 'I reached the maximum number of tool calls. Please refine your question.'})}\n\n"
+        yield f"data: {json.dumps({'type': 'text', 'content': 'Reached maximum tool call iterations.'})}\n\n"
         yield f"data: {json.dumps({'type': 'done'})}\n\n"
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
 
 
 def _fallback_reply(messages: list) -> str:
-    """Generate a simple fallback reply when no API key is available."""
     last_msg = messages[-1]["content"] if messages else ""
     return (
-        f"I received your question about: \"{last_msg[:100]}...\"\n\n"
-        "However, the ANTHROPIC_API_KEY is not configured. "
-        "Please set it in your environment to enable AI-powered chat.\n\n"
-        "In the meantime, you can review the pre-computed dossier insights "
-        "on the project detail page."
+        f"I received your question: \"{last_msg[:100]}...\"\n\n"
+        "However, OPENAI_API_KEY is not configured. "
+        "Set it in your environment to enable AI chat."
     )

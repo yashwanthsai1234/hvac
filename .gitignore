@@ -11,6 +11,8 @@ node_modules/
 
 # Database
 *.db
+*.db-shm
+*.db-wal
 
 # IDE
 .vscode/
@@ -29,3 +31,7 @@ node_modules/
 
 # Emails store
 backend/data/sent_emails.json
+
+# Credentials (OAuth)
+credentials.json
+token.json

@@ -1,4 +1,4 @@
-"""Full pipeline: seed → compute → reason → store dossiers.
+"""Full pipeline: seed → compute → export JSONL → reason → store dossiers.
 
 Usage:
     python -m backend.scripts.build_dossiers [--no-api]
@@ -10,6 +10,7 @@ import time
 from backend.db.connection import reset_db, get_db
 from backend.scripts.seed_db import seed
 from backend.compute import run_compute_engine
+from backend.scripts.export_jsonl import export_all as export_jsonl
 from backend.reasoning.dossier_builder import build_and_store_dossier
 from backend.reasoning.portfolio_builder import build_and_store_portfolio
 
@@ -18,14 +19,17 @@ def build_all(use_api=True):
     """Run the full pipeline."""
     start = time.time()
 
-    print("\n[PIPELINE] Step 1/4: Resetting and seeding database...")
+    print("\n[PIPELINE] Step 1/5: Resetting and seeding database...")
     reset_db()
     seed()
 
-    print("\n[PIPELINE] Step 2/4: Running compute engine...")
+    print("\n[PIPELINE] Step 2/5: Running compute engine...")
     run_compute_engine()
 
-    print("\n[PIPELINE] Step 3/4: Building project dossiers...")
+    print("\n[PIPELINE] Step 3/5: Exporting computed scores to JSONL...")
+    export_jsonl()
+
+    print("\n[PIPELINE] Step 4/5: Building project dossiers (LLM reasoning from JSONL)...")
     db = get_db()
     projects = db.execute("SELECT project_id FROM contracts ORDER BY project_id").fetchall()
 
@@ -33,7 +37,7 @@ def build_all(use_api=True):
         pid = proj["project_id"]
         build_and_store_dossier(pid, use_api=use_api)
 
-    print("\n[PIPELINE] Step 4/4: Building portfolio summary...")
+    print("\n[PIPELINE] Step 5/5: Building portfolio summary...")
     build_and_store_portfolio()
 
     # Verify
@@ -42,6 +46,7 @@ def build_all(use_api=True):
 
     print(f"\n[PIPELINE] Complete! {dossier_count} dossiers stored in {elapsed:.1f}s")
     print(f"  Database: {db.execute('PRAGMA database_list').fetchone()[2]}")
+    print(f"  JSONL files: backend/data/projects.jsonl, backend/data/triggers.jsonl")
 
 
 if __name__ == "__main__":

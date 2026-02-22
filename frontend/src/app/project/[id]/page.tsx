@@ -14,12 +14,42 @@ export default function ProjectPage() {
   const [dossier, setDossier] = useState<Dossier | null>(null);
   const [loading, setLoading] = useState(true);
 
+  // Email modal state
+  const [emailOpen, setEmailOpen] = useState(false);
+  const [emailTo, setEmailTo] = useState("");
+  const [emailSending, setEmailSending] = useState(false);
+  const [emailResult, setEmailResult] = useState<{ status: string; message?: string } | null>(null);
+
   useEffect(() => {
     fetchDossier(projectId)
       .then(setDossier)
       .catch(console.error)
       .finally(() => setLoading(false));
   }, [projectId]);
+
+  async function sendReport() {
+    if (!emailTo.trim()) return;
+    setEmailSending(true);
+    setEmailResult(null);
+
+    try {
+      const res = await fetch("/api/email/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ project_id: projectId, to: emailTo.trim() }),
+      });
+      const data = await res.json();
+      if (data.status === "sent") {
+        setEmailResult({ status: "sent", message: `Report sent to ${data.to}` });
+      } else {
+        setEmailResult({ status: "failed", message: data.error || "Send failed" });
+      }
+    } catch {
+      setEmailResult({ status: "failed", message: "Network error" });
+    } finally {
+      setEmailSending(false);
+    }
+  }
 
   if (loading) {
     return (
@@ -40,7 +70,6 @@ export default function ProjectPage() {
     );
   }
 
-  // Sort triggers: HIGH first, then by type
   const sortedTriggers = [...dossier.triggers].sort((a, b) => {
     if (a.severity !== b.severity) return a.severity === "HIGH" ? -1 : 1;
     return a.type.localeCompare(b.type);
@@ -61,15 +90,83 @@ export default function ProjectPage() {
             {dossier.start_date} — {dossier.end_date}
           </div>
         </div>
-        <div className="text-right">
-          <span className={`px-3 py-1 rounded-full text-sm font-bold ${statusBg(dossier.status)} text-white`}>
-            {dossier.status}
-          </span>
-          <div className={`text-2xl font-bold mt-1 ${statusColor(dossier.status)}`}>
-            {dossier.health_score}/100
+        <div className="flex items-start gap-3">
+          {/* Send Report button */}
+          <button
+            onClick={() => { setEmailOpen(true); setEmailResult(null); }}
+            className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            Send Report
+          </button>
+
+          <div className="text-right">
+            <span className={`px-3 py-1 rounded-full text-sm font-bold ${statusBg(dossier.status)} text-white`}>
+              {dossier.status}
+            </span>
+            <div className={`text-2xl font-bold mt-1 ${statusColor(dossier.status)}`}>
+              {dossier.health_score}/100
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Email modal */}
+      {emailOpen && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
+          <div className="bg-gray-900 border border-gray-700 rounded-xl p-6 w-full max-w-md">
+            <h3 className="text-lg font-semibold mb-1">Send Margin Report</h3>
+            <p className="text-sm text-gray-400 mb-4">
+              Email a detailed margin alert for {dossier.name} with financial summary, top issues, and recovery actions.
+            </p>
+
+            <label className="text-sm text-gray-400 block mb-1">Recipient email</label>
+            <input
+              type="email"
+              value={emailTo}
+              onChange={(e) => setEmailTo(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && sendReport()}
+              placeholder="pm@company.com"
+              className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm mb-4 focus:outline-none focus:border-blue-500"
+            />
+
+            {emailResult && (
+              <div className={`text-sm mb-4 p-3 rounded-lg ${
+                emailResult.status === "sent"
+                  ? "bg-green-500/10 text-green-400 border border-green-500/30"
+                  : "bg-red-500/10 text-red-400 border border-red-500/30"
+              }`}>
+                {emailResult.message}
+              </div>
+            )}
+
+            <div className="flex gap-3 justify-end">
+              <button
+                onClick={() => setEmailOpen(false)}
+                className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={sendReport}
+                disabled={emailSending || !emailTo.trim()}
+                className="px-4 py-2 bg-green-600 hover:bg-green-700 disabled:bg-gray-700 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
+              >
+                {emailSending ? (
+                  <>
+                    <span className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full" />
+                    Sending...
+                  </>
+                ) : (
+                  "Send via Gmail"
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Financial summary */}
       <DossierHeader financials={dossier.financials} contractValue={dossier.contract_value} />
