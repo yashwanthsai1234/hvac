@@ -1,0 +1,14 @@
+[project]
+name = "hvac-margin-agent"
+version = "0.1.0"
+description = "HVAC Margin Rescue Agent — AI-powered construction financial analysis"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "anthropic>=0.39.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

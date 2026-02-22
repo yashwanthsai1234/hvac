@@ -1,0 +1,270 @@
+project_id,delivery_id,date,sov_line_id,material_category,item_description,quantity,unit,unit_cost,total_cost,po_number,vendor,received_by,condition_notes
+PRJ-2024-001,DEL-001-7b34a2,2024-04-13,PRJ-2024-001-SOV-03,Ductwork,"Spiral Duct 16""",263,LF,176.84,46509.65,PO-62186,Ferguson Supply,M. Chen,Partial shipment - backorder pending
+PRJ-2024-001,DEL-001-607d3e,2024-05-13,PRJ-2024-001-SOV-04,Ductwork,"Spiral Duct 16""",55,LF,5352.03,294361.67,PO-13844,Ferguson Supply,J. Martinez,Good condition
+PRJ-2024-001,DEL-001-0a1c07,2024-06-21,PRJ-2024-001-SOV-05,Piping,"PVC Sch40 4""",44,EA,1396.54,61447.58,PO-95061,Winsupply,J. Martinez,Partial shipment - backorder pending
+PRJ-2024-001,DEL-001-7e22e8,2024-06-26,PRJ-2024-001-SOV-04,Ductwork,Galvanized Sheet Metal 22ga,79,SHEET,2130.13,168279.96,PO-62284,Winsupply,D. Patel,Good condition
+PRJ-2024-001,DEL-001-885eab,2024-06-27,PRJ-2024-001-SOV-04,Ductwork,Galvanized Sheet Metal 20ga,51,SHEET,1902.79,97042.16,PO-43398,Carrier Enterprise,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-aa2700,2024-07-04,PRJ-2024-001-SOV-08,Equipment,Split System 3-Ton,9,EA,68011.35,612102.15,PO-83183,RE Michel,D. Patel,Good condition
+PRJ-2024-001,DEL-001-314b9f,2024-07-06,PRJ-2024-001-SOV-09,Equipment,Chiller 200-Ton,3,EA,232900.45,698701.35,PO-81301,Carrier Enterprise,M. Chen,Good condition
+PRJ-2024-001,DEL-001-72d866,2024-07-11,PRJ-2024-001-SOV-08,Equipment,Boiler 2000MBH,1,EA,104503.55,104503.55,PO-87048,Winsupply,J. Martinez,Good condition
+PRJ-2024-001,DEL-001-674889,2024-07-19,PRJ-2024-001-SOV-03,Ductwork,"Flex Duct 8""",134,LF,927.13,124235.59,PO-63835,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-001,DEL-001-165fce,2024-07-22,PRJ-2024-001-SOV-07,Equipment,Split System 3-Ton,17,EA,25129.91,427208.47,PO-77585,ACR Group,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-4f7208,2024-07-23,PRJ-2024-001-SOV-07,Equipment,FCU 2-Pipe,458,LF,573.61,262714.01,PO-18140,Winsupply,M. Chen,Good condition
+PRJ-2024-001,DEL-001-556e48,2024-08-14,PRJ-2024-001-SOV-08,Equipment,"VAV Box 16""",8,EA,75416.1,603328.81,PO-94752,ACR Group,M. Chen,Good condition
+PRJ-2024-001,DEL-001-913a60,2024-08-15,PRJ-2024-001-SOV-04,Ductwork,"Spiral Duct 24""",362,LF,207.31,75047.48,PO-34548,RE Michel,M. Chen,Good condition
+PRJ-2024-001,DEL-001-e35416,2024-08-19,PRJ-2024-001-SOV-06,Piping,Refrigerant R-410A,39,EA,1689.39,65886.3,PO-14450,Johnstone Supply,R. Williams,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-20a7df,2024-08-20,PRJ-2024-001-SOV-07,Equipment,Chiller 200-Ton,3,EA,223636.87,670910.6,PO-18609,Ferguson Supply,M. Chen,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-2b861b,2024-08-22,PRJ-2024-001-SOV-04,Ductwork,"Flex Duct 12""",361,LF,463.52,167332.03,PO-42377,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-001,DEL-001-b2826d,2024-08-22,PRJ-2024-001-SOV-05,Piping,"Copper Type L 1""",705,LF,415.87,293191.84,PO-90333,Carrier Enterprise,M. Chen,Good condition
+PRJ-2024-001,DEL-001-19fc8a,2024-09-02,PRJ-2024-001-SOV-06,Piping,"Black Steel Sch40 4""",969,LF,88.74,85984.62,PO-10881,RE Michel,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-f316a0,2024-09-07,PRJ-2024-001-SOV-03,Ductwork,"Spiral Duct 16""",140,LF,1687.92,236309.42,PO-34791,RE Michel,M. Chen,Partial shipment - backorder pending
+PRJ-2024-001,DEL-001-f6ee32,2024-09-09,PRJ-2024-001-SOV-03,Ductwork,Hanging Hardware,47,EA,11852.46,557065.4,PO-30227,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-001,DEL-001-0a8cd1,2024-09-12,PRJ-2024-001-SOV-04,Ductwork,Duct Sealant,431,LF,335.3,144514.42,PO-34851,Carrier Enterprise,J. Martinez,Good condition
+PRJ-2024-001,DEL-001-9c1748,2024-09-17,PRJ-2024-001-SOV-05,Piping,"Black Steel Sch40 2""",444,LF,238.98,106108.89,PO-40425,Ferguson Supply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-7aeee7,2024-10-19,PRJ-2024-001-SOV-04,Ductwork,Galvanized Sheet Metal 20ga,59,SHEET,2380.31,140438.03,PO-95467,Johnstone Supply,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-24e833,2024-10-30,PRJ-2024-001-SOV-12,Insulation,"Pipe Insulation 1"" Armaflex",337,LF,620.48,209102.35,PO-11783,Winsupply,M. Chen,Good condition
+PRJ-2024-001,DEL-001-135a20,2024-11-01,PRJ-2024-001-SOV-07,Equipment,FCU 2-Pipe,541,LF,1240.96,671360.55,PO-13364,ACR Group,D. Patel,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-536ced,2024-11-01,PRJ-2024-001-SOV-11,Controls,"Control Valve 2""",35,EA,5935.2,207732.02,PO-45735,RE Michel,R. Williams,Good condition
+PRJ-2024-001,DEL-001-cbb1f5,2024-11-05,PRJ-2024-001-SOV-09,Equipment,RTU 15-Ton,4,EA,120945.32,483781.29,PO-80015,Carrier Enterprise,J. Martinez,Good condition
+PRJ-2024-001,DEL-001-f85d52,2024-11-21,PRJ-2024-001-SOV-07,Equipment,Boiler 2000MBH,4,EA,4306.85,17227.41,PO-47566,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-001,DEL-001-a94dac,2024-11-22,PRJ-2024-001-SOV-08,Equipment,"VAV Box 12""",24,EA,14078.86,337892.56,PO-25365,Carrier Enterprise,R. Williams,Good condition
+PRJ-2024-001,DEL-001-fe7466,2024-11-27,PRJ-2024-001-SOV-07,Equipment,RTU 25-Ton,1,EA,869119.34,869119.34,PO-71763,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-001,DEL-001-666fee,2024-11-30,PRJ-2024-001-SOV-05,Piping,Pipe Hangers Assorted,404,LF,280.15,113179.47,PO-30941,Johnstone Supply,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-a43c2e,2024-12-09,PRJ-2024-001-SOV-08,Equipment,"VAV Box 12""",39,EA,1446.02,56394.7,PO-20361,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-001,DEL-001-915f49,2024-12-10,PRJ-2024-001-SOV-08,Equipment,RTU 25-Ton,3,EA,178575.29,535725.86,PO-56094,ACR Group,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-efc710,2024-12-19,PRJ-2024-001-SOV-06,Piping,"Black Steel Sch40 2""",743,LF,21.19,15744.87,PO-10364,ACR Group,D. Patel,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-afef60,2024-12-25,PRJ-2024-001-SOV-11,Controls,Touchscreen Interface,46,EA,3164.74,145577.87,PO-62858,Ferguson Supply,R. Williams,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-87f1d5,2025-01-02,PRJ-2024-001-SOV-09,Equipment,"VAV Box 12""",15,EA,10528.2,157923.02,PO-89702,Johnstone Supply,R. Williams,Good condition
+PRJ-2024-001,DEL-001-935290,2025-01-11,PRJ-2024-001-SOV-06,Piping,"Copper Type L 1.5""",638,LF,227.54,145171.7,PO-66441,Carrier Enterprise,R. Williams,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-64a359,2025-01-18,PRJ-2024-001-SOV-11,Controls,Temp Sensor,12,EA,7416.97,89003.69,PO-51096,Winsupply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-b59508,2025-01-23,PRJ-2024-001-SOV-10,Controls,DDC Controller,96,EA,2706.43,259817.07,PO-25398,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-001,DEL-001-17a6eb,2025-02-02,PRJ-2024-001-SOV-08,Equipment,Boiler 2000MBH,3,EA,145457.42,436372.27,PO-91153,ACR Group,R. Williams,Good condition
+PRJ-2024-001,DEL-001-ba2278,2025-02-06,PRJ-2024-001-SOV-07,Equipment,RTU 15-Ton,2,EA,273782.83,547565.66,PO-49094,Johnstone Supply,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-9e798a,2025-02-06,PRJ-2024-001-SOV-11,Controls,VAV Controller,33,EA,5176.45,170822.7,PO-18326,RE Michel,M. Chen,Good condition
+PRJ-2024-001,DEL-001-2ad262,2025-02-22,PRJ-2024-001-SOV-06,Piping,"Black Steel Sch40 4""",223,LF,428.19,95486.77,PO-31412,RE Michel,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-7d7436,2025-03-16,PRJ-2024-001-SOV-06,Piping,"Copper Type L 2""",1000,LF,145.04,145038.14,PO-10565,Ferguson Supply,M. Chen,Good condition
+PRJ-2024-001,DEL-001-2fc508,2025-03-17,PRJ-2024-001-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",997,LF,236.68,235965.72,PO-73690,ACR Group,M. Chen,Good condition
+PRJ-2024-001,DEL-001-47ac79,2025-03-19,PRJ-2024-001-SOV-09,Equipment,RTU 15-Ton,2,EA,267711.18,535422.35,PO-87144,ACR Group,M. Chen,Good condition
+PRJ-2024-001,DEL-001-2449e2,2025-03-22,PRJ-2024-001-SOV-10,Controls,Pressure Sensor,20,EA,10824.44,216488.81,PO-22042,Winsupply,K. Thompson,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-ae9f2b,2025-03-31,PRJ-2024-001-SOV-10,Controls,Actuator 24V,12,EA,10921.95,131063.4,PO-75947,Carrier Enterprise,J. Martinez,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-d6b2a6,2025-04-06,PRJ-2024-001-SOV-05,Piping,Brazing Alloy,25,EA,15201.46,380036.6,PO-29963,Johnstone Supply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-8c4ecc,2025-04-06,PRJ-2024-001-SOV-07,Equipment,AHU Custom,1,EA,893625.68,893625.68,PO-29216,Johnstone Supply,R. Williams,Partial shipment - backorder pending
+PRJ-2024-001,DEL-001-29960a,2025-05-10,PRJ-2024-001-SOV-10,Controls,VAV Controller,11,EA,9332.52,102657.68,PO-53946,Carrier Enterprise,R. Williams,Partial shipment - backorder pending
+PRJ-2024-001,DEL-001-e8057b,2025-05-25,PRJ-2024-001-SOV-12,Insulation,Fiberglass Duct Liner R-6,177,LF,927.18,164110.11,PO-52823,Johnstone Supply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-c6cfb9,2025-05-30,PRJ-2024-001-SOV-10,Controls,Temp Sensor,35,EA,2418.8,84657.9,PO-17273,Winsupply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-001,DEL-001-111531,2025-07-01,PRJ-2024-001-SOV-11,Controls,DDC Controller,78,EA,801.85,62544.4,PO-98984,Johnstone Supply,K. Thompson,Good condition
+PRJ-2024-001,DEL-001-8eb7a6,2025-07-05,PRJ-2024-001-SOV-10,Controls,DDC Controller,74,EA,2431.19,179908.08,PO-89314,Carrier Enterprise,M. Chen,Good condition
+PRJ-2024-002,DEL-002-3930f2,2024-03-06,PRJ-2024-002-SOV-04,Ductwork,"Flex Duct 8""",179,LF,792.76,141903.42,PO-58502,ACR Group,R. Williams,Good condition
+PRJ-2024-002,DEL-002-c84af1,2024-03-19,PRJ-2024-002-SOV-03,Ductwork,Galvanized Sheet Metal 20ga,62,SHEET,1795.25,111305.34,PO-98691,Ferguson Supply,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-328561,2024-04-28,PRJ-2024-002-SOV-03,Ductwork,Duct Sealant,92,LF,903.12,83087.36,PO-63898,Winsupply,M. Chen,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-28f89c,2024-05-29,PRJ-2024-002-SOV-03,Ductwork,Duct Sealant,477,LF,749.55,357536.4,PO-56146,ACR Group,D. Patel,Good condition
+PRJ-2024-002,DEL-002-ad60c4,2024-06-01,PRJ-2024-002-SOV-03,Ductwork,Galvanized Sheet Metal 20ga,74,SHEET,1411.54,104453.99,PO-30127,Carrier Enterprise,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-fd2015,2024-06-12,PRJ-2024-002-SOV-07,Equipment,"VAV Box 16""",14,EA,27401.0,383613.97,PO-76534,Johnstone Supply,D. Patel,Good condition
+PRJ-2024-002,DEL-002-d92587,2024-06-12,PRJ-2024-002-SOV-09,Equipment,"VAV Box 12""",23,EA,3251.7,74789.19,PO-99920,ACR Group,D. Patel,Good condition
+PRJ-2024-002,DEL-002-5442f5,2024-06-15,PRJ-2024-002-SOV-09,Equipment,FCU 4-Pipe,129,LF,10578.61,1364641.21,PO-71438,RE Michel,K. Thompson,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-72fc09,2024-06-24,PRJ-2024-002-SOV-03,Ductwork,"Spiral Duct 16""",342,LF,572.82,195905.96,PO-93148,RE Michel,M. Chen,Good condition
+PRJ-2024-002,DEL-002-0f20d0,2024-06-25,PRJ-2024-002-SOV-06,Piping,"Copper Type L 2""",294,LF,632.13,185847.42,PO-12822,Winsupply,M. Chen,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-aa9e3f,2024-07-31,PRJ-2024-002-SOV-03,Ductwork,"Spiral Duct 16""",144,LF,1214.42,174875.98,PO-26222,Winsupply,R. Williams,Good condition
+PRJ-2024-002,DEL-002-ae4c31,2024-08-01,PRJ-2024-002-SOV-04,Ductwork,"Spiral Duct 24""",208,LF,1457.46,303151.7,PO-90864,Winsupply,J. Martinez,Good condition
+PRJ-2024-002,DEL-002-345963,2024-08-10,PRJ-2024-002-SOV-06,Piping,Pipe Hangers Assorted,615,LF,709.79,436522.3,PO-47110,ACR Group,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-7e31ff,2024-08-14,PRJ-2024-002-SOV-08,Equipment,"VAV Box 12""",33,EA,12337.66,407142.91,PO-14013,RE Michel,R. Williams,Good condition
+PRJ-2024-002,DEL-002-0e4943,2024-09-04,PRJ-2024-002-SOV-08,Equipment,RTU 15-Ton,1,EA,82493.02,82493.02,PO-73996,Winsupply,M. Chen,Good condition
+PRJ-2024-002,DEL-002-72d146,2024-09-16,PRJ-2024-002-SOV-08,Equipment,FCU 4-Pipe,779,LF,580.5,452209.17,PO-54782,Ferguson Supply,D. Patel,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-d91cc1,2024-09-20,PRJ-2024-002-SOV-08,Equipment,FCU 4-Pipe,563,LF,744.83,419337.38,PO-74764,RE Michel,M. Chen,Good condition
+PRJ-2024-002,DEL-002-0f9f3b,2024-09-27,PRJ-2024-002-SOV-03,Ductwork,"Flex Duct 10""",500,LF,287.69,143844.22,PO-21699,ACR Group,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-0bce57,2024-10-05,PRJ-2024-002-SOV-04,Ductwork,"Flex Duct 8""",453,LF,1402.04,635122.81,PO-97416,Johnstone Supply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-1cc99f,2024-11-14,PRJ-2024-002-SOV-08,Equipment,FCU 4-Pipe,562,LF,512.19,287852.29,PO-40632,Winsupply,R. Williams,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-7a1f90,2024-11-17,PRJ-2024-002-SOV-04,Ductwork,"Spiral Duct 16""",51,LF,7185.5,366460.32,PO-59793,Carrier Enterprise,K. Thompson,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-6c8446,2024-11-25,PRJ-2024-002-SOV-08,Equipment,FCU 4-Pipe,652,LF,391.88,255505.43,PO-72833,Johnstone Supply,R. Williams,Good condition
+PRJ-2024-002,DEL-002-cda638,2024-11-30,PRJ-2024-002-SOV-08,Equipment,FCU 2-Pipe,538,LF,213.52,114871.85,PO-62327,Carrier Enterprise,K. Thompson,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-e2d152,2024-12-07,PRJ-2024-002-SOV-11,Controls,Damper Motor,38,EA,1589.48,60400.41,PO-72980,ACR Group,D. Patel,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-c741c9,2024-12-15,PRJ-2024-002-SOV-05,Piping,"Copper Type L 1.5""",981,LF,177.35,173975.51,PO-57537,Johnstone Supply,M. Chen,Good condition
+PRJ-2024-002,DEL-002-bfd3d4,2024-12-19,PRJ-2024-002-SOV-12,Insulation,"Pipe Insulation 1"" Armaflex",206,LF,367.02,75606.08,PO-96757,ACR Group,D. Patel,Good condition
+PRJ-2024-002,DEL-002-45bd0e,2025-01-14,PRJ-2024-002-SOV-05,Piping,"Black Steel Sch40 4""",370,LF,119.14,44081.6,PO-39861,Johnstone Supply,R. Williams,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-9883a5,2025-02-13,PRJ-2024-002-SOV-11,Controls,VAV Controller,37,EA,4208.26,155705.71,PO-85115,Winsupply,J. Martinez,Good condition
+PRJ-2024-002,DEL-002-318d20,2025-02-22,PRJ-2024-002-SOV-06,Piping,"Copper Type L 1.5""",520,LF,15.15,7877.8,PO-87941,Ferguson Supply,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-0fd8b3,2025-02-25,PRJ-2024-002-SOV-10,Controls,Pressure Sensor,75,EA,1051.65,78873.81,PO-94587,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-002,DEL-002-3af6c1,2025-02-28,PRJ-2024-002-SOV-07,Equipment,"VAV Box 12""",11,EA,163147.41,1794621.48,PO-92376,Ferguson Supply,M. Chen,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-139a6f,2025-03-16,PRJ-2024-002-SOV-12,Insulation,"Pipe Insulation 1"" Armaflex",592,LF,67.27,39822.31,PO-82304,ACR Group,M. Chen,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-9127b7,2025-04-07,PRJ-2024-002-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",323,LF,299.55,96754.22,PO-14178,Winsupply,R. Williams,Good condition
+PRJ-2024-002,DEL-002-846963,2025-04-13,PRJ-2024-002-SOV-05,Piping,Refrigerant R-410A,49,EA,6647.31,325718.16,PO-17294,ACR Group,J. Martinez,Good condition
+PRJ-2024-002,DEL-002-1dff19,2025-05-03,PRJ-2024-002-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",521,LF,13.04,6791.48,PO-35431,Winsupply,M. Chen,Good condition
+PRJ-2024-002,DEL-002-f7dc20,2025-05-07,PRJ-2024-002-SOV-10,Controls,Actuator 24V,77,EA,1568.96,120809.83,PO-92394,Carrier Enterprise,R. Williams,Good condition
+PRJ-2024-002,DEL-002-298db8,2025-05-12,PRJ-2024-002-SOV-06,Piping,"Copper Type L 1.5""",964,LF,184.05,177425.02,PO-41795,Johnstone Supply,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-cde3b5,2025-05-12,PRJ-2024-002-SOV-11,Controls,Actuator 24V,42,EA,1647.79,69207.03,PO-55616,Winsupply,D. Patel,Good condition
+PRJ-2024-002,DEL-002-3e94ce,2025-05-25,PRJ-2024-002-SOV-11,Controls,BACnet Gateway,16,EA,8920.38,142726.07,PO-44350,Carrier Enterprise,J. Martinez,Good condition
+PRJ-2024-002,DEL-002-5af792,2025-05-28,PRJ-2024-002-SOV-09,Equipment,Boiler 2000MBH,2,EA,212084.24,424168.49,PO-10864,Ferguson Supply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-c4ec75,2025-05-28,PRJ-2024-002-SOV-10,Controls,"Control Valve 2""",32,EA,4507.6,144243.14,PO-11171,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-002,DEL-002-e650a2,2025-05-29,PRJ-2024-002-SOV-07,Equipment,FCU 4-Pipe,863,LF,1601.42,1382023.61,PO-11159,RE Michel,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-0e7840,2025-06-12,PRJ-2024-002-SOV-08,Equipment,"VAV Box 12""",27,EA,12090.26,326436.94,PO-43255,Winsupply,D. Patel,Good condition
+PRJ-2024-002,DEL-002-8431f4,2025-06-17,PRJ-2024-002-SOV-05,Piping,Refrigerant R-410A,29,EA,2974.84,86270.44,PO-15332,Carrier Enterprise,D. Patel,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-353d7b,2025-06-18,PRJ-2024-002-SOV-05,Piping,"Black Steel Sch40 2""",384,LF,811.65,311675.25,PO-57706,Johnstone Supply,M. Chen,Good condition
+PRJ-2024-002,DEL-002-2ceda3,2025-07-06,PRJ-2024-002-SOV-12,Insulation,"Pipe Insulation 1"" Armaflex",889,LF,93.61,83223.41,PO-97907,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-002,DEL-002-ecc446,2025-07-10,PRJ-2024-002-SOV-12,Insulation,Fiberglass Duct Liner R-6,268,LF,283.59,76003.33,PO-13685,Winsupply,K. Thompson,Good condition
+PRJ-2024-002,DEL-002-86661a,2025-07-20,PRJ-2024-002-SOV-10,Controls,DDC Controller,85,EA,1869.73,158927.17,PO-77472,Winsupply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-002,DEL-002-bbc667,2025-08-01,PRJ-2024-002-SOV-11,Controls,DDC Controller,42,EA,858.98,36077.33,PO-68203,Johnstone Supply,D. Patel,Good condition
+PRJ-2024-002,DEL-002-b4f383,2025-08-23,PRJ-2024-002-SOV-11,Controls,DDC Controller,81,EA,153.15,12405.16,PO-68738,RE Michel,R. Williams,Partial shipment - backorder pending
+PRJ-2024-002,DEL-002-f2bfe2,2025-11-01,PRJ-2024-002-SOV-12,Insulation,Vapor Barrier Tape,36,EA,2434.82,87653.56,PO-81150,Johnstone Supply,M. Chen,Good condition
+PRJ-2024-003,DEL-003-e62601,2024-04-03,PRJ-2024-003-SOV-04,Ductwork,Hanging Hardware,45,EA,288.12,12965.51,PO-58255,ACR Group,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-730d1c,2024-04-04,PRJ-2024-003-SOV-03,Ductwork,Duct Sealant,53,LF,924.32,48989.1,PO-97983,RE Michel,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-8abd3f,2024-04-07,PRJ-2024-003-SOV-04,Ductwork,Duct Sealant,480,LF,111.6,53565.65,PO-57302,Johnstone Supply,M. Chen,Good condition
+PRJ-2024-003,DEL-003-9f7a58,2024-05-12,PRJ-2024-003-SOV-07,Equipment,RTU 15-Ton,1,EA,118926.45,118926.45,PO-31736,Winsupply,R. Williams,Partial shipment - backorder pending
+PRJ-2024-003,DEL-003-8cb044,2024-05-16,PRJ-2024-003-SOV-03,Ductwork,"Spiral Duct 12""",57,LF,68.29,3892.47,PO-50820,Ferguson Supply,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-662712,2024-05-26,PRJ-2024-003-SOV-08,Equipment,RTU 15-Ton,3,EA,65279.85,195839.56,PO-79862,ACR Group,M. Chen,Good condition
+PRJ-2024-003,DEL-003-79a648,2024-05-27,PRJ-2024-003-SOV-05,Piping,"Copper Type L 2""",207,LF,288.5,59718.62,PO-53105,RE Michel,M. Chen,Good condition
+PRJ-2024-003,DEL-003-c372b1,2024-05-31,PRJ-2024-003-SOV-04,Ductwork,"Spiral Duct 12""",378,LF,84.19,31825.31,PO-77887,Ferguson Supply,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-1c2c2e,2024-05-31,PRJ-2024-003-SOV-09,Equipment,Chiller 200-Ton,3,EA,30847.12,92541.37,PO-72122,Winsupply,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-686181,2024-06-02,PRJ-2024-003-SOV-06,Piping,Pipe Hangers Assorted,736,LF,83.92,61765.04,PO-25356,RE Michel,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-5a751e,2024-06-02,PRJ-2024-003-SOV-06,Piping,Refrigerant R-410A,14,EA,3249.39,45491.43,PO-69834,Ferguson Supply,J. Martinez,Minor packaging damage - product OK
+PRJ-2024-003,DEL-003-7264bc,2024-06-07,PRJ-2024-003-SOV-03,Ductwork,Galvanized Sheet Metal 20ga,30,SHEET,3226.22,96786.58,PO-84828,Winsupply,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-4de22a,2024-06-10,PRJ-2024-003-SOV-05,Piping,"Copper Type L 1.5""",787,LF,44.33,34884.6,PO-46364,Johnstone Supply,R. Williams,Good condition
+PRJ-2024-003,DEL-003-ee6b98,2024-06-19,PRJ-2024-003-SOV-04,Ductwork,"Spiral Duct 16""",259,LF,140.71,36443.1,PO-21043,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-003,DEL-003-317e9d,2024-06-21,PRJ-2024-003-SOV-07,Equipment,"VAV Box 12""",29,EA,3477.81,100856.59,PO-29105,Johnstone Supply,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-1dcdd5,2024-06-27,PRJ-2024-003-SOV-04,Ductwork,Galvanized Sheet Metal 22ga,41,SHEET,1251.8,51323.62,PO-83737,Carrier Enterprise,J. Martinez,Minor packaging damage - product OK
+PRJ-2024-003,DEL-003-b59277,2024-06-29,PRJ-2024-003-SOV-03,Ductwork,"Flex Duct 8""",332,LF,24.05,7985.5,PO-53712,ACR Group,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-010baa,2024-07-01,PRJ-2024-003-SOV-05,Piping,"PVC Sch40 4""",43,EA,1092.67,46984.76,PO-58831,RE Michel,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-8aae95,2024-07-07,PRJ-2024-003-SOV-03,Ductwork,"Flex Duct 10""",329,LF,199.37,65591.88,PO-79683,Carrier Enterprise,R. Williams,Good condition
+PRJ-2024-003,DEL-003-0361a4,2024-07-16,PRJ-2024-003-SOV-07,Equipment,RTU 25-Ton,1,EA,55388.74,55388.74,PO-81474,ACR Group,R. Williams,Partial shipment - backorder pending
+PRJ-2024-003,DEL-003-c0d133,2024-07-25,PRJ-2024-003-SOV-09,Equipment,FCU 2-Pipe,320,LF,554.32,177383.1,PO-39234,RE Michel,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-653f17,2024-08-09,PRJ-2024-003-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",208,LF,59.14,12301.38,PO-10885,Winsupply,D. Patel,Good condition
+PRJ-2024-003,DEL-003-c2a403,2024-09-02,PRJ-2024-003-SOV-07,Equipment,RTU 25-Ton,4,EA,22692.62,90770.46,PO-66490,Ferguson Supply,D. Patel,Good condition
+PRJ-2024-003,DEL-003-4d9546,2024-09-03,PRJ-2024-003-SOV-12,Insulation,Fiberglass Duct Liner R-6,153,LF,124.75,19086.84,PO-14117,ACR Group,D. Patel,Good condition
+PRJ-2024-003,DEL-003-da85f8,2024-09-09,PRJ-2024-003-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",953,LF,17.59,16760.75,PO-14721,Johnstone Supply,M. Chen,Good condition
+PRJ-2024-003,DEL-003-b6f19d,2024-09-18,PRJ-2024-003-SOV-11,Controls,BACnet Gateway,19,EA,21.32,405.17,PO-21237,Ferguson Supply,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-1f3eb5,2024-09-18,PRJ-2024-003-SOV-12,Insulation,"Pipe Insulation 1"" Armaflex",849,LF,6.23,5289.19,PO-76494,ACR Group,D. Patel,Good condition
+PRJ-2024-003,DEL-003-d65972,2024-09-19,PRJ-2024-003-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",142,LF,68.88,9781.56,PO-65931,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-3b08d8,2024-09-22,PRJ-2024-003-SOV-08,Equipment,"VAV Box 12""",19,EA,5374.2,102109.73,PO-36269,ACR Group,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-a9ad4f,2024-09-22,PRJ-2024-003-SOV-11,Controls,Touchscreen Interface,34,EA,813.18,27648.17,PO-48373,ACR Group,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-46b9a8,2024-09-23,PRJ-2024-003-SOV-07,Equipment,Chiller 200-Ton,2,EA,25170.77,50341.55,PO-38158,ACR Group,R. Williams,Good condition
+PRJ-2024-003,DEL-003-7d5ebc,2024-10-09,PRJ-2024-003-SOV-07,Equipment,RTU 15-Ton,4,EA,10427.89,41711.56,PO-88803,RE Michel,M. Chen,Minor packaging damage - product OK
+PRJ-2024-003,DEL-003-b2ed66,2024-10-12,PRJ-2024-003-SOV-08,Equipment,RTU 25-Ton,2,EA,1465.02,2930.03,PO-21902,Winsupply,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-c524ef,2024-10-14,PRJ-2024-003-SOV-12,Insulation,Insulation Adhesive,32,EA,425.76,13624.24,PO-93702,Ferguson Supply,M. Chen,Good condition
+PRJ-2024-003,DEL-003-1f6f06,2024-10-21,PRJ-2024-003-SOV-07,Equipment,RTU 25-Ton,2,EA,32136.62,64273.24,PO-17937,Winsupply,J. Martinez,Good condition
+PRJ-2024-003,DEL-003-58ddb1,2024-10-30,PRJ-2024-003-SOV-08,Equipment,"VAV Box 12""",34,EA,2550.4,86713.54,PO-97077,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-003,DEL-003-cab44c,2024-11-01,PRJ-2024-003-SOV-09,Equipment,Chiller 200-Ton,4,EA,21288.32,85153.29,PO-55634,RE Michel,M. Chen,Partial shipment - backorder pending
+PRJ-2024-003,DEL-003-8b8c38,2024-11-15,PRJ-2024-003-SOV-10,Controls,Damper Motor,6,EA,11602.86,69617.15,PO-84191,Winsupply,M. Chen,Good condition
+PRJ-2024-003,DEL-003-665cab,2024-12-05,PRJ-2024-003-SOV-06,Piping,"Black Steel Sch40 4""",962,LF,25.26,24303.55,PO-73576,ACR Group,R. Williams,Minor packaging damage - product OK
+PRJ-2024-003,DEL-003-f476fe,2024-12-22,PRJ-2024-003-SOV-10,Controls,VAV Controller,35,EA,20.55,719.22,PO-74092,Winsupply,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-2ac4d9,2025-01-16,PRJ-2024-003-SOV-12,Insulation,Vapor Barrier Tape,10,EA,91.94,919.39,PO-98313,Ferguson Supply,K. Thompson,Good condition
+PRJ-2024-003,DEL-003-663356,2025-01-20,PRJ-2024-003-SOV-12,Insulation,Fiberglass Duct Wrap R-8,248,LF,42.31,10492.1,PO-46257,Johnstone Supply,D. Patel,Good condition
+PRJ-2024-003,DEL-003-a591e1,2025-01-21,PRJ-2024-003-SOV-10,Controls,Temp Sensor,63,EA,344.43,21699.08,PO-54489,Carrier Enterprise,K. Thompson,Minor packaging damage - product OK
+PRJ-2024-003,DEL-003-8b5447,2025-02-24,PRJ-2024-003-SOV-11,Controls,Touchscreen Interface,28,EA,1187.12,33239.37,PO-67052,Johnstone Supply,R. Williams,Minor packaging damage - product OK
+PRJ-2024-003,DEL-003-0a59fc,2025-02-27,PRJ-2024-003-SOV-10,Controls,DDC Controller,17,EA,4674.74,79470.57,PO-22966,ACR Group,K. Thompson,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-38e6fc,2024-03-04,PRJ-2024-004-SOV-04,Ductwork,"Spiral Duct 16""",282,LF,575.03,162157.2,PO-39860,RE Michel,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-3c3506,2024-03-16,PRJ-2024-004-SOV-03,Ductwork,"Spiral Duct 24""",118,LF,570.67,67339.34,PO-10004,Ferguson Supply,K. Thompson,Good condition
+PRJ-2024-004,DEL-004-8e5672,2024-03-19,PRJ-2024-004-SOV-03,Ductwork,Hanging Hardware,25,EA,3774.99,94374.74,PO-53813,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-004,DEL-004-07c11c,2024-03-21,PRJ-2024-004-SOV-04,Ductwork,Duct Sealant,467,LF,62.51,29193.67,PO-30036,RE Michel,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-54c482,2024-04-02,PRJ-2024-004-SOV-04,Ductwork,"Spiral Duct 12""",83,LF,1697.87,140923.36,PO-64440,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-9d1a3b,2024-04-03,PRJ-2024-004-SOV-03,Ductwork,Galvanized Sheet Metal 22ga,90,SHEET,234.83,21134.55,PO-17907,Johnstone Supply,M. Chen,Good condition
+PRJ-2024-004,DEL-004-569f23,2024-04-03,PRJ-2024-004-SOV-06,Piping,"Black Steel Sch40 4""",827,LF,38.42,31772.28,PO-38216,Carrier Enterprise,M. Chen,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-765d7e,2024-04-04,PRJ-2024-004-SOV-03,Ductwork,Galvanized Sheet Metal 20ga,51,SHEET,3174.39,161893.86,PO-11437,Carrier Enterprise,R. Williams,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-89ddde,2024-04-05,PRJ-2024-004-SOV-07,Equipment,Split System 3-Ton,47,EA,18959.23,891083.59,PO-23814,Carrier Enterprise,R. Williams,Good condition
+PRJ-2024-004,DEL-004-95dcb0,2024-04-11,PRJ-2024-004-SOV-09,Equipment,Chiller 200-Ton,1,EA,12497.29,12497.29,PO-13000,Johnstone Supply,R. Williams,Good condition
+PRJ-2024-004,DEL-004-9fbcfc,2024-04-12,PRJ-2024-004-SOV-05,Piping,"Copper Type L 1""",228,LF,459.63,104794.82,PO-52572,Winsupply,D. Patel,Good condition
+PRJ-2024-004,DEL-004-529614,2024-04-12,PRJ-2024-004-SOV-08,Equipment,AHU Custom,4,EA,71934.4,287737.58,PO-91044,ACR Group,M. Chen,Good condition
+PRJ-2024-004,DEL-004-939ab7,2024-04-16,PRJ-2024-004-SOV-04,Ductwork,Galvanized Sheet Metal 22ga,60,SHEET,2895.4,173723.72,PO-54259,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-004,DEL-004-7e3cd7,2024-04-21,PRJ-2024-004-SOV-04,Ductwork,Hanging Hardware,33,EA,3487.98,115103.48,PO-37040,ACR Group,R. Williams,Good condition
+PRJ-2024-004,DEL-004-be363c,2024-04-22,PRJ-2024-004-SOV-05,Piping,Flux,17,EA,3843.52,65339.83,PO-45183,Johnstone Supply,M. Chen,Good condition
+PRJ-2024-004,DEL-004-9aa418,2024-04-22,PRJ-2024-004-SOV-09,Equipment,FCU 4-Pipe,914,LF,64.72,59153.67,PO-46665,Carrier Enterprise,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-625f27,2024-05-01,PRJ-2024-004-SOV-09,Equipment,RTU 15-Ton,1,EA,18314.74,18314.74,PO-89246,RE Michel,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-12acc8,2024-05-09,PRJ-2024-004-SOV-03,Ductwork,"Spiral Duct 16""",235,LF,20.56,4831.13,PO-23744,RE Michel,D. Patel,Good condition
+PRJ-2024-004,DEL-004-e3b789,2024-05-09,PRJ-2024-004-SOV-08,Equipment,"VAV Box 16""",36,EA,7217.53,259830.99,PO-11936,Ferguson Supply,R. Williams,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-2a243a,2024-05-12,PRJ-2024-004-SOV-03,Ductwork,"Spiral Duct 24""",161,LF,1009.62,162548.47,PO-14456,Carrier Enterprise,R. Williams,Good condition
+PRJ-2024-004,DEL-004-7d138e,2024-05-14,PRJ-2024-004-SOV-05,Piping,"Black Steel Sch40 2""",269,LF,388.27,104443.88,PO-60894,RE Michel,J. Martinez,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-381aa6,2024-05-15,PRJ-2024-004-SOV-07,Equipment,FCU 4-Pipe,591,LF,206.77,122203.17,PO-61130,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-6ddfb1,2024-05-24,PRJ-2024-004-SOV-03,Ductwork,Duct Sealant,181,LF,64.2,11619.44,PO-99658,ACR Group,R. Williams,Good condition
+PRJ-2024-004,DEL-004-c372ec,2024-05-29,PRJ-2024-004-SOV-04,Ductwork,"Spiral Duct 24""",262,LF,13.59,3559.44,PO-21304,Winsupply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-06184f,2024-06-10,PRJ-2024-004-SOV-04,Ductwork,"Flex Duct 12""",405,LF,57.66,23350.44,PO-16903,RE Michel,R. Williams,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-d860ea,2024-06-12,PRJ-2024-004-SOV-09,Equipment,Chiller 200-Ton,1,EA,195679.92,195679.92,PO-27338,ACR Group,R. Williams,Good condition
+PRJ-2024-004,DEL-004-ff91b2,2024-06-23,PRJ-2024-004-SOV-05,Piping,"PVC Sch40 4""",28,EA,1182.48,33109.51,PO-58397,RE Michel,K. Thompson,Good condition
+PRJ-2024-004,DEL-004-c95aa7,2024-06-26,PRJ-2024-004-SOV-09,Equipment,AHU Custom,2,EA,60969.82,121939.64,PO-30458,ACR Group,K. Thompson,Good condition
+PRJ-2024-004,DEL-004-f212f2,2024-07-02,PRJ-2024-004-SOV-05,Piping,"Black Steel Sch40 2""",695,LF,118.51,82364.93,PO-62868,Carrier Enterprise,M. Chen,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-4add91,2024-07-02,PRJ-2024-004-SOV-07,Equipment,RTU 25-Ton,3,EA,210843.69,632531.06,PO-99446,Winsupply,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-02ebca,2024-07-06,PRJ-2024-004-SOV-07,Equipment,Chiller 200-Ton,3,EA,46243.32,138729.95,PO-88813,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-004,DEL-004-0fea1f,2024-07-07,PRJ-2024-004-SOV-06,Piping,Flux,44,EA,393.12,17297.21,PO-74755,ACR Group,R. Williams,Good condition
+PRJ-2024-004,DEL-004-8bd2bc,2024-07-13,PRJ-2024-004-SOV-09,Equipment,Boiler 2000MBH,3,EA,51369.5,154108.49,PO-41239,Winsupply,M. Chen,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-9f577c,2024-07-18,PRJ-2024-004-SOV-11,Controls,Touchscreen Interface,19,EA,2687.89,51069.89,PO-37584,Carrier Enterprise,K. Thompson,Good condition
+PRJ-2024-004,DEL-004-2b179c,2024-07-21,PRJ-2024-004-SOV-08,Equipment,"VAV Box 16""",34,EA,477.89,16248.22,PO-30447,Winsupply,M. Chen,Good condition
+PRJ-2024-004,DEL-004-36340b,2024-07-28,PRJ-2024-004-SOV-12,Insulation,Fiberglass Duct Wrap R-8,394,LF,155.57,61293.87,PO-51638,ACR Group,D. Patel,Good condition
+PRJ-2024-004,DEL-004-2ff56d,2024-07-29,PRJ-2024-004-SOV-08,Equipment,FCU 4-Pipe,381,LF,113.94,43410.73,PO-98335,Winsupply,K. Thompson,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-89dd78,2024-08-02,PRJ-2024-004-SOV-12,Insulation,Fiberglass Duct Wrap R-8,440,LF,115.07,50629.69,PO-81116,Ferguson Supply,D. Patel,Good condition
+PRJ-2024-004,DEL-004-09d5ae,2024-08-09,PRJ-2024-004-SOV-06,Piping,"Copper Type L 1""",227,LF,239.3,54321.81,PO-59550,RE Michel,D. Patel,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-a8ccfb,2024-08-11,PRJ-2024-004-SOV-08,Equipment,Split System 3-Ton,5,EA,49863.03,249315.16,PO-31791,Ferguson Supply,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-35db67,2024-08-13,PRJ-2024-004-SOV-08,Equipment,AHU Custom,4,EA,24781.35,99125.39,PO-96611,Johnstone Supply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-29ce4f,2024-08-17,PRJ-2024-004-SOV-10,Controls,"Control Valve 2""",49,EA,2515.9,123279.26,PO-73295,Ferguson Supply,M. Chen,Good condition
+PRJ-2024-004,DEL-004-bf3997,2024-08-20,PRJ-2024-004-SOV-06,Piping,Flux,45,EA,2061.48,92766.52,PO-49440,Ferguson Supply,M. Chen,Good condition
+PRJ-2024-004,DEL-004-db1627,2024-08-21,PRJ-2024-004-SOV-09,Equipment,Chiller 200-Ton,1,EA,163022.69,163022.69,PO-41703,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-64d6a1,2024-08-22,PRJ-2024-004-SOV-10,Controls,Pressure Sensor,37,EA,3533.38,130735.0,PO-80531,RE Michel,R. Williams,Good condition
+PRJ-2024-004,DEL-004-138279,2024-08-24,PRJ-2024-004-SOV-12,Insulation,"Pipe Insulation 1"" Armaflex",399,LF,123.89,49430.34,PO-37657,Ferguson Supply,J. Martinez,Good condition
+PRJ-2024-004,DEL-004-b1768c,2024-08-27,PRJ-2024-004-SOV-05,Piping,Pipe Hangers Assorted,970,LF,99.2,96223.69,PO-16434,Johnstone Supply,D. Patel,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-cefe10,2024-08-30,PRJ-2024-004-SOV-07,Equipment,RTU 25-Ton,2,EA,148783.77,297567.54,PO-99748,Carrier Enterprise,M. Chen,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-9fd30e,2024-09-14,PRJ-2024-004-SOV-06,Piping,Pipe Hangers Assorted,199,LF,401.83,79963.32,PO-55510,Ferguson Supply,M. Chen,Good condition
+PRJ-2024-004,DEL-004-f14311,2024-09-15,PRJ-2024-004-SOV-05,Piping,Pipe Hangers Assorted,667,LF,89.65,59796.84,PO-99661,Johnstone Supply,D. Patel,Good condition
+PRJ-2024-004,DEL-004-d314d6,2024-09-15,PRJ-2024-004-SOV-08,Equipment,"VAV Box 16""",26,EA,910.42,23670.91,PO-48883,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-004,DEL-004-6f1a2b,2024-09-15,PRJ-2024-004-SOV-08,Equipment,"VAV Box 12""",9,EA,32250.74,290256.62,PO-99218,RE Michel,D. Patel,Good condition
+PRJ-2024-004,DEL-004-67c2c9,2024-09-15,PRJ-2024-004-SOV-09,Equipment,RTU 15-Ton,3,EA,37936.51,113809.53,PO-52944,Winsupply,J. Martinez,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-ace14d,2024-09-22,PRJ-2024-004-SOV-11,Controls,"Control Valve 1""",19,EA,1824.71,34669.45,PO-93687,Johnstone Supply,D. Patel,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-e2b2ef,2024-09-26,PRJ-2024-004-SOV-10,Controls,"Control Valve 1""",11,EA,6289.44,69183.86,PO-32651,Carrier Enterprise,D. Patel,Good condition
+PRJ-2024-004,DEL-004-10ab54,2024-10-03,PRJ-2024-004-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",520,LF,71.12,36983.97,PO-30854,RE Michel,K. Thompson,Good condition
+PRJ-2024-004,DEL-004-4db9b5,2024-10-06,PRJ-2024-004-SOV-11,Controls,BACnet Gateway,7,EA,5227.83,36594.8,PO-21681,Ferguson Supply,R. Williams,Minor packaging damage - product OK
+PRJ-2024-004,DEL-004-e091c2,2024-10-08,PRJ-2024-004-SOV-10,Controls,Touchscreen Interface,47,EA,2924.22,137438.22,PO-82912,ACR Group,D. Patel,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-29cd41,2024-10-09,PRJ-2024-004-SOV-11,Controls,Actuator 24V,57,EA,368.25,20989.97,PO-71286,ACR Group,J. Martinez,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-2888d0,2024-10-13,PRJ-2024-004-SOV-12,Insulation,"Pipe Insulation 1"" Armaflex",169,LF,193.25,32659.09,PO-92723,ACR Group,M. Chen,Good condition
+PRJ-2024-004,DEL-004-7e814e,2024-10-27,PRJ-2024-004-SOV-11,Controls,VAV Controller,25,EA,1729.54,43238.44,PO-10593,Winsupply,M. Chen,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-f5a1f1,2024-10-31,PRJ-2024-004-SOV-11,Controls,Pressure Sensor,46,EA,93.98,4322.86,PO-78461,Carrier Enterprise,R. Williams,Partial shipment - backorder pending
+PRJ-2024-004,DEL-004-9bfc61,2024-11-11,PRJ-2024-004-SOV-10,Controls,Touchscreen Interface,44,EA,3473.23,152822.28,PO-90159,RE Michel,R. Williams,Good condition
+PRJ-2024-005,DEL-005-55a12d,2024-04-16,PRJ-2024-005-SOV-03,Ductwork,Hanging Hardware,11,EA,8347.28,91820.12,PO-10258,Johnstone Supply,D. Patel,Good condition
+PRJ-2024-005,DEL-005-cc9f41,2024-04-16,PRJ-2024-005-SOV-03,Ductwork,"Flex Duct 8""",100,LF,1130.86,113085.75,PO-14776,ACR Group,D. Patel,Good condition
+PRJ-2024-005,DEL-005-57d9a7,2024-04-24,PRJ-2024-005-SOV-04,Ductwork,"Flex Duct 8""",483,LF,113.01,54582.65,PO-69761,Ferguson Supply,K. Thompson,Good condition
+PRJ-2024-005,DEL-005-b86140,2024-06-02,PRJ-2024-005-SOV-04,Ductwork,Galvanized Sheet Metal 20ga,84,SHEET,2121.16,178177.11,PO-38200,Winsupply,D. Patel,Good condition
+PRJ-2024-005,DEL-005-8c3e14,2024-06-13,PRJ-2024-005-SOV-03,Ductwork,"Flex Duct 8""",361,LF,18.78,6778.14,PO-62406,RE Michel,M. Chen,Good condition
+PRJ-2024-005,DEL-005-051029,2024-06-13,PRJ-2024-005-SOV-04,Ductwork,"Spiral Duct 24""",71,LF,119.38,8476.28,PO-16547,Winsupply,R. Williams,Good condition
+PRJ-2024-005,DEL-005-b66d36,2024-07-04,PRJ-2024-005-SOV-04,Ductwork,"Flex Duct 12""",327,LF,295.95,96777.05,PO-79065,Winsupply,D. Patel,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-8dd3e5,2024-07-14,PRJ-2024-005-SOV-05,Piping,"Copper Type L 1.5""",986,LF,22.69,22377.23,PO-11991,Ferguson Supply,K. Thompson,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-5fa613,2024-07-20,PRJ-2024-005-SOV-03,Ductwork,"Flex Duct 8""",423,LF,260.04,109996.23,PO-98917,Carrier Enterprise,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-1d1f15,2024-08-08,PRJ-2024-005-SOV-09,Equipment,"VAV Box 12""",17,EA,5940.81,100993.8,PO-65061,Ferguson Supply,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-6f9f36,2024-08-27,PRJ-2024-005-SOV-03,Ductwork,"Flex Duct 8""",387,LF,226.14,87514.28,PO-16299,Winsupply,M. Chen,Good condition
+PRJ-2024-005,DEL-005-6cc4b4,2024-08-27,PRJ-2024-005-SOV-05,Piping,"Copper Type L 2""",224,LF,348.69,78106.71,PO-96480,Ferguson Supply,K. Thompson,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-13e999,2024-09-09,PRJ-2024-005-SOV-04,Ductwork,"Flex Duct 10""",154,LF,696.3,107230.95,PO-29182,RE Michel,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-3e6532,2024-09-26,PRJ-2024-005-SOV-05,Piping,Flux,28,EA,8134.77,227773.55,PO-34825,RE Michel,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-47c2ce,2024-10-02,PRJ-2024-005-SOV-07,Equipment,RTU 25-Ton,4,EA,33304.91,133219.66,PO-95690,Ferguson Supply,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-e82f2d,2024-10-12,PRJ-2024-005-SOV-03,Ductwork,Duct Sealant,219,LF,836.77,183251.8,PO-16660,ACR Group,D. Patel,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-b25474,2024-10-15,PRJ-2024-005-SOV-06,Piping,Refrigerant R-410A,11,EA,3644.87,40093.56,PO-95570,Carrier Enterprise,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-b67b33,2024-10-16,PRJ-2024-005-SOV-04,Ductwork,Galvanized Sheet Metal 22ga,80,SHEET,100.47,8037.72,PO-68190,Winsupply,R. Williams,Good condition
+PRJ-2024-005,DEL-005-75bdda,2024-10-18,PRJ-2024-005-SOV-04,Ductwork,"Flex Duct 8""",155,LF,132.78,20580.61,PO-86137,Winsupply,M. Chen,Good condition
+PRJ-2024-005,DEL-005-e22a1a,2024-10-19,PRJ-2024-005-SOV-06,Piping,"Black Steel Sch40 2""",799,LF,79.19,63270.28,PO-67966,Winsupply,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-d25883,2024-10-24,PRJ-2024-005-SOV-06,Piping,Pipe Hangers Assorted,165,LF,231.66,38224.09,PO-15082,Johnstone Supply,M. Chen,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-a45f31,2024-10-25,PRJ-2024-005-SOV-08,Equipment,AHU Custom,4,EA,26639.77,106559.07,PO-48794,Johnstone Supply,R. Williams,Partial shipment - backorder pending
+PRJ-2024-005,DEL-005-6634f3,2024-10-29,PRJ-2024-005-SOV-09,Equipment,AHU Custom,4,EA,39654.86,158619.42,PO-77293,RE Michel,R. Williams,Good condition
+PRJ-2024-005,DEL-005-384b91,2024-11-07,PRJ-2024-005-SOV-05,Piping,Brazing Alloy,16,EA,3527.07,56433.16,PO-70288,Carrier Enterprise,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-e9e125,2024-11-13,PRJ-2024-005-SOV-04,Ductwork,"Spiral Duct 24""",237,LF,70.19,16635.03,PO-49704,Carrier Enterprise,K. Thompson,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-7917f8,2024-11-24,PRJ-2024-005-SOV-07,Equipment,FCU 4-Pipe,137,LF,1084.07,148517.96,PO-89624,Johnstone Supply,D. Patel,Good condition
+PRJ-2024-005,DEL-005-743070,2024-11-26,PRJ-2024-005-SOV-09,Equipment,RTU 25-Ton,3,EA,36980.3,110940.9,PO-11420,ACR Group,M. Chen,Partial shipment - backorder pending
+PRJ-2024-005,DEL-005-f9ac3d,2024-11-27,PRJ-2024-005-SOV-10,Controls,"Control Valve 1""",38,EA,3845.67,146135.63,PO-10492,Winsupply,M. Chen,Good condition
+PRJ-2024-005,DEL-005-90c05c,2024-11-28,PRJ-2024-005-SOV-07,Equipment,FCU 4-Pipe,452,LF,636.36,287635.41,PO-56916,Carrier Enterprise,R. Williams,Good condition
+PRJ-2024-005,DEL-005-c5171f,2024-11-30,PRJ-2024-005-SOV-07,Equipment,RTU 15-Ton,2,EA,149406.54,298813.08,PO-71276,Johnstone Supply,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-95b128,2024-12-02,PRJ-2024-005-SOV-09,Equipment,Boiler 2000MBH,3,EA,28236.68,84710.05,PO-51213,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-005,DEL-005-abfee1,2024-12-08,PRJ-2024-005-SOV-06,Piping,"Black Steel Sch40 2""",885,LF,40.27,35640.73,PO-20218,RE Michel,R. Williams,Good condition
+PRJ-2024-005,DEL-005-df8762,2024-12-23,PRJ-2024-005-SOV-09,Equipment,RTU 15-Ton,4,EA,13363.36,53453.45,PO-96880,RE Michel,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-8ef36e,2024-12-28,PRJ-2024-005-SOV-06,Piping,Pipe Hangers Assorted,198,LF,267.4,52944.31,PO-89617,Winsupply,R. Williams,Good condition
+PRJ-2024-005,DEL-005-0ee261,2024-12-31,PRJ-2024-005-SOV-07,Equipment,"VAV Box 16""",10,EA,25449.98,254499.79,PO-54424,Ferguson Supply,D. Patel,Good condition
+PRJ-2024-005,DEL-005-31fc12,2025-01-05,PRJ-2024-005-SOV-07,Equipment,Chiller 200-Ton,2,EA,91803.38,183606.76,PO-30834,RE Michel,D. Patel,Good condition
+PRJ-2024-005,DEL-005-a9bfa8,2025-01-10,PRJ-2024-005-SOV-12,Insulation,Insulation Adhesive,22,EA,8213.29,180692.36,PO-59086,Winsupply,D. Patel,Good condition
+PRJ-2024-005,DEL-005-087a58,2025-01-31,PRJ-2024-005-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",165,LF,467.0,77055.36,PO-45432,Johnstone Supply,D. Patel,Good condition
+PRJ-2024-005,DEL-005-6d5865,2025-02-04,PRJ-2024-005-SOV-08,Equipment,RTU 25-Ton,3,EA,89590.94,268772.81,PO-56576,ACR Group,K. Thompson,Partial shipment - backorder pending
+PRJ-2024-005,DEL-005-c77a3a,2025-02-14,PRJ-2024-005-SOV-11,Controls,"Control Valve 1""",48,EA,2546.06,122210.71,PO-55364,Winsupply,J. Martinez,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-9e0222,2025-03-03,PRJ-2024-005-SOV-08,Equipment,AHU Custom,4,EA,94310.61,377242.45,PO-38816,Johnstone Supply,J. Martinez,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-984256,2025-03-11,PRJ-2024-005-SOV-06,Piping,"Black Steel Sch40 4""",377,LF,105.51,39777.73,PO-58341,RE Michel,K. Thompson,Good condition
+PRJ-2024-005,DEL-005-9bc658,2025-03-11,PRJ-2024-005-SOV-08,Equipment,FCU 2-Pipe,541,LF,498.85,269877.05,PO-38751,ACR Group,K. Thompson,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-832565,2025-03-13,PRJ-2024-005-SOV-11,Controls,Actuator 24V,72,EA,125.05,9003.83,PO-28313,Ferguson Supply,R. Williams,Good condition
+PRJ-2024-005,DEL-005-4b8f1b,2025-03-23,PRJ-2024-005-SOV-05,Piping,Refrigerant R-410A,7,EA,16175.19,113226.32,PO-46699,ACR Group,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-507b70,2025-03-27,PRJ-2024-005-SOV-12,Insulation,"Pipe Insulation 2"" Armaflex",328,LF,83.74,27465.1,PO-94585,Ferguson Supply,J. Martinez,Partial shipment - backorder pending
+PRJ-2024-005,DEL-005-93aa62,2025-03-29,PRJ-2024-005-SOV-09,Equipment,Split System 3-Ton,49,EA,4086.96,200260.8,PO-61995,RE Michel,D. Patel,Good condition
+PRJ-2024-005,DEL-005-fb1e4c,2025-03-30,PRJ-2024-005-SOV-12,Insulation,Fiberglass Duct Liner R-6,338,LF,85.29,28827.58,PO-85591,RE Michel,D. Patel,Good condition
+PRJ-2024-005,DEL-005-7a9db8,2025-04-06,PRJ-2024-005-SOV-10,Controls,Touchscreen Interface,6,EA,5778.69,34672.13,PO-94182,ACR Group,J. Martinez,Good condition
+PRJ-2024-005,DEL-005-09cbfa,2025-04-07,PRJ-2024-005-SOV-06,Piping,Brazing Alloy,36,EA,394.4,14198.48,PO-37712,RE Michel,M. Chen,Good condition
+PRJ-2024-005,DEL-005-aefb1d,2025-04-16,PRJ-2024-005-SOV-07,Equipment,RTU 25-Ton,2,EA,26208.76,52417.51,PO-89895,Ferguson Supply,J. Martinez,Partial shipment - backorder pending
+PRJ-2024-005,DEL-005-e06f83,2025-04-21,PRJ-2024-005-SOV-10,Controls,Touchscreen Interface,31,EA,4057.12,125770.66,PO-54757,Johnstone Supply,J. Martinez,Minor packaging damage - product OK
+PRJ-2024-005,DEL-005-c67f02,2025-05-14,PRJ-2024-005-SOV-06,Piping,"Copper Type L 1""",642,LF,8.81,5656.35,PO-13859,RE Michel,J. Martinez,Partial shipment - backorder pending
+PRJ-2024-005,DEL-005-88064b,2025-05-23,PRJ-2024-005-SOV-11,Controls,BACnet Gateway,12,EA,4673.74,56084.91,PO-57978,Johnstone Supply,K. Thompson,Good condition
+PRJ-2024-005,DEL-005-d8bad2,2025-06-26,PRJ-2024-005-SOV-10,Controls,Touchscreen Interface,29,EA,4924.36,142806.51,PO-96093,Ferguson Supply,D. Patel,Partial shipment - backorder pending

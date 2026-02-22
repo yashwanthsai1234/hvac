@@ -1,0 +1,76 @@
+project_id,sov_line_id,estimated_labor_hours,estimated_labor_cost,estimated_material_cost,estimated_equipment_cost,estimated_sub_cost,productivity_factor,key_assumptions
+PRJ-2024-001,PRJ-2024-001-SOV-01,1850,127450,83100,0,0,1.0,Clear site access; no coordination delays; standard PM staffing
+PRJ-2024-001,PRJ-2024-001-SOV-02,680,48200,24150,0,0,1.0,Submittals prepared in-house; standard review cycles
+PRJ-2024-001,PRJ-2024-001-SOV-03,2420,189500,96450,0,0,0.85,70% shop fabrication; 30% field fab; standard material availability
+PRJ-2024-001,PRJ-2024-001-SOV-04,3850,265400,108700,0,0,0.80,Productivity assumes 70% in accessible ceiling; 30% open areas
+PRJ-2024-001,PRJ-2024-001-SOV-05,3200,229800,95400,0,0,0.85,Standard pipe routing; minimal rework expected
+PRJ-2024-001,PRJ-2024-001-SOV-06,2100,158100,55350,0,0,0.90,Refrigerant lines prefab where possible
+PRJ-2024-001,PRJ-2024-001-SOV-07,1650,106450,435800,0,0,1.0,Equipment setting only; rigging included; standard lead times
+PRJ-2024-001,PRJ-2024-001-SOV-08,1480,100700,268600,0,0,1.0,Equipment quotes firm; freight included
+PRJ-2024-001,PRJ-2024-001-SOV-09,720,47250,187650,0,0,1.0,Terminal units set and connect; no controls programming
+PRJ-2024-001,PRJ-2024-001-SOV-10,2280,164350,97500,0,0,0.95,DDC panels shop-programmed; field wiring and termination
+PRJ-2024-001,PRJ-2024-001-SOV-11,1650,119900,67550,0,0,0.90,Programming based on standard sequences; 2 weeks commissioning
+PRJ-2024-001,PRJ-2024-001-SOV-12,1850,135150,60900,0,0,0.85,Insulation after substantial duct/pipe completion
+PRJ-2024-001,PRJ-2024-001-SOV-13,0,0,0,0,78540,1.0,TAB subcontractor; 3 weeks duration; standard rates
+PRJ-2024-001,PRJ-2024-001-SOV-14,680,47800,26350,0,0,1.0,Startup by equipment vendors; HVAC support only
+PRJ-2024-001,PRJ-2024-001-SOV-15,420,29600,16900,0,0,1.0,O&M manuals compiled; owner training 2 days
+PRJ-2024-002,PRJ-2024-002-SOV-01,2100,151950,87700,0,0,1.0,24-month duration; laydown space available
+PRJ-2024-002,PRJ-2024-002-SOV-02,920,63000,36050,0,0,1.0,Long-lead equipment submittals critical path
+PRJ-2024-002,PRJ-2024-002-SOV-03,2450,169100,117100,0,0,0.85,High-rise distribution; exterior craning
+PRJ-2024-002,PRJ-2024-002-SOV-04,3200,225700,144700,0,0,0.80,Core floors first; tenant floors phased
+PRJ-2024-002,PRJ-2024-002-SOV-05,2680,191400,94200,0,0,0.85,Chilled water risers; coordination with structure
+PRJ-2024-002,PRJ-2024-002-SOV-06,1850,132700,80800,0,0,0.90,VRF refrigerant distribution; prefab headers
+PRJ-2024-002,PRJ-2024-002-SOV-07,1780,123650,356000,0,0,1.0,Rooftop unit installation; crane days included
+PRJ-2024-002,PRJ-2024-002-SOV-08,1180,80650,234600,0,0,1.0,Central plant equipment; rigging plan required
+PRJ-2024-002,PRJ-2024-002-SOV-09,880,61050,186400,0,0,1.0,Floor-by-floor VAV installation
+PRJ-2024-002,PRJ-2024-002-SOV-10,1680,120600,50300,0,0,0.95,BAS integration with building management system
+PRJ-2024-002,PRJ-2024-002-SOV-11,920,63000,47650,0,0,0.90,Phased commissioning by floor
+PRJ-2024-002,PRJ-2024-002-SOV-12,1320,91850,46600,0,0,0.85,Coordination with ceiling contractor critical
+PRJ-2024-002,PRJ-2024-002-SOV-13,0,0,0,0,61850,1.0,TAB subcontractor; phased testing; 6 weeks total
+PRJ-2024-002,PRJ-2024-002-SOV-14,520,36750,17150,0,0,1.0,Equipment startup sequenced with occupancy
+PRJ-2024-002,PRJ-2024-002-SOV-15,420,29450,12400,0,0,1.0,As-builts and closeout by floor
+PRJ-2024-003,PRJ-2024-003-SOV-01,340,23700,13600,0,0,1.0,Single PM; superintendent 50%; standard duration
+PRJ-2024-003,PRJ-2024-003-SOV-02,140,9850,4140,0,0,1.0,K-12 submittal requirements; state approvals
+PRJ-2024-003,PRJ-2024-003-SOV-03,520,36950,22300,0,0,0.85,Shop fabrication; standard duct material
+PRJ-2024-003,PRJ-2024-003-SOV-04,720,50400,18600,0,0,0.85,Single-story; accessible work; standard crew productivity
+PRJ-2024-003,PRJ-2024-003-SOV-05,480,33600,14150,0,0,0.85,Hydronic piping for unit ventilators; standard routing
+PRJ-2024-003,PRJ-2024-003-SOV-06,300,21050,13150,0,0,0.90,Minimal refrigerant piping; split systems only
+PRJ-2024-003,PRJ-2024-003-SOV-07,220,15100,52230,0,0,1.0,Rooftop units; ground-level rigging
+PRJ-2024-003,PRJ-2024-003-SOV-08,180,12050,38750,0,0,1.0,Boiler and chiller setting; minimal complexity
+PRJ-2024-003,PRJ-2024-003-SOV-09,200,13580,35520,0,0,1.0,Unit ventilators and fan coil units; standard installation
+PRJ-2024-003,PRJ-2024-003-SOV-10,420,29280,17150,0,0,0.95,DDC controls; standard K-12 sequences
+PRJ-2024-003,PRJ-2024-003-SOV-11,170,11700,6130,0,0,0.90,Programming and commissioning; 1 week duration
+PRJ-2024-003,PRJ-2024-003-SOV-12,320,22100,8820,0,0,0.85,Duct and pipe insulation; accessible areas
+PRJ-2024-003,PRJ-2024-003-SOV-13,0,0,0,0,11380,1.0,TAB subcontractor; 1 week; simple systems
+PRJ-2024-003,PRJ-2024-003-SOV-14,90,6350,4940,0,0,1.0,Equipment startup; minimal complexity
+PRJ-2024-003,PRJ-2024-003-SOV-15,110,7700,3100,0,0,1.0,O&M manuals; facility staff training
+PRJ-2024-004,PRJ-2024-004-SOV-01,1020,70650,45600,0,0,1.0,Fast-track; tight schedule; premium time excluded
+PRJ-2024-004,PRJ-2024-004-SOV-02,280,19550,11630,0,0,1.0,Data center submittals; tier III requirements
+PRJ-2024-004,PRJ-2024-004-SOV-03,1240,86700,52400,0,0,0.85,Precision cooling distribution; tight tolerances
+PRJ-2024-004,PRJ-2024-004-SOV-04,1900,131200,64800,0,0,0.80,Hot aisle/cold aisle configuration; cable tray coordination
+PRJ-2024-004,PRJ-2024-004-SOV-05,1320,91650,54600,0,0,0.85,Chilled water for CRAC units; redundant piping
+PRJ-2024-004,PRJ-2024-004-SOV-06,980,68150,27600,0,0,0.90,Refrigerant piping for DX cooling units
+PRJ-2024-004,PRJ-2024-004-SOV-07,770,52900,208100,0,0,1.0,Precision CRAC units; critical lead times
+PRJ-2024-004,PRJ-2024-004-SOV-08,630,43000,127050,0,0,1.0,Redundant chillers; N+1 configuration
+PRJ-2024-004,PRJ-2024-004-SOV-09,370,25200,83850,0,0,1.0,Computer room air handlers; factory controls
+PRJ-2024-004,PRJ-2024-004-SOV-10,1450,99200,61350,0,0,0.95,BMS integration; data center monitoring requirements
+PRJ-2024-004,PRJ-2024-004-SOV-11,790,54400,19080,0,0,0.90,Controls commissioning; tier III validation
+PRJ-2024-004,PRJ-2024-004-SOV-12,880,61600,23100,0,0,0.85,Insulation for energy efficiency; tight schedule
+PRJ-2024-004,PRJ-2024-004-SOV-13,0,0,0,0,35980,1.0,TAB subcontractor; precision balancing required
+PRJ-2024-004,PRJ-2024-004-SOV-14,290,19850,11280,0,0,1.0,Staged startup; redundancy testing
+PRJ-2024-004,PRJ-2024-004-SOV-15,240,16450,10460,0,0,1.0,Tier III closeout documentation; operator training
+PRJ-2024-005,PRJ-2024-005-SOV-01,920,63850,38000,0,0,1.0,3-building project; phased occupancy
+PRJ-2024-005,PRJ-2024-005-SOV-02,470,32600,12810,0,0,1.0,Residential HVAC submittal requirements
+PRJ-2024-005,PRJ-2024-005-SOV-03,1240,85750,59300,0,0,0.85,Multi-floor duct distribution; central shafts
+PRJ-2024-005,PRJ-2024-005-SOV-04,1260,86900,49050,0,0,0.85,Repetitive unit layout; learning curve benefit
+PRJ-2024-005,PRJ-2024-005-SOV-05,1300,89550,49800,0,0,0.85,Hydronic heating distribution; 3 buildings
+PRJ-2024-005,PRJ-2024-005-SOV-06,950,66850,28970,0,0,0.90,Split system condensers; balcony mounting
+PRJ-2024-005,PRJ-2024-005-SOV-07,380,25800,135900,0,0,1.0,RTUs for common areas; rooftop placement
+PRJ-2024-005,PRJ-2024-005-SOV-08,380,25700,102050,0,0,1.0,Central boilers; domestic hot water integration
+PRJ-2024-005,PRJ-2024-005-SOV-09,290,19970,70880,0,0,1.0,Fan coil units for dwelling units; bulk purchasing
+PRJ-2024-005,PRJ-2024-005-SOV-10,960,66400,44950,0,0,0.95,Unit-level thermostats; central BMS for common areas
+PRJ-2024-005,PRJ-2024-005-SOV-11,500,34950,18730,0,0,0.90,Controls commissioning; phased by building
+PRJ-2024-005,PRJ-2024-005-SOV-12,850,59450,31400,0,0,0.85,Insulation in common areas and shafts
+PRJ-2024-005,PRJ-2024-005-SOV-13,0,0,0,0,34710,1.0,TAB subcontractor; phased testing by building
+PRJ-2024-005,PRJ-2024-005-SOV-14,400,28200,14170,0,0,1.0,Phased startup; coordinate with occupancy
+PRJ-2024-005,PRJ-2024-005-SOV-15,140,9770,5950,0,0,1.0,Residential turnover documentation; owner training

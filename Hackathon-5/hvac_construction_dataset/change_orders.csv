@@ -1,0 +1,65 @@
+project_id,co_number,date_submitted,reason_category,description,amount,status,related_rfi,affected_sov_lines,labor_hours_impact,schedule_impact_days,submitted_by,approved_by
+PRJ-2024-001,CO-012,2024-04-29,Acceleration,Premium time to maintain schedule,390900,Approved,,"['PRJ-2024-001-SOV-04', 'PRJ-2024-001-SOV-14']",9,0,R. Williams,Project Manager
+PRJ-2024-001,CO-003,2024-05-07,Unforeseen Condition,Discovered abandoned piping not shown on documents,365700,Approved,RFI-012,['PRJ-2024-001-SOV-14'],36,0,K. Thompson,Project Manager
+PRJ-2024-001,CO-009,2024-05-23,Design Error,Drawings showed incorrect equipment clearance - field correction required,326200,Approved,,['PRJ-2024-001-SOV-04'],159,5,K. Thompson,Owner Rep
+PRJ-2024-001,CO-002,2024-07-01,Owner Request,Added controls points per owner directive,632900,Approved,,['PRJ-2024-001-SOV-03'],23,0,R. Williams,Project Manager
+PRJ-2024-001,CO-007,2024-08-24,Scope Gap,Work not clearly defined in bid documents,643900,Rejected,,"['PRJ-2024-001-SOV-14', 'PRJ-2024-001-SOV-11']",47,7,K. Thompson,Project Manager
+PRJ-2024-001,CO-010,2024-11-04,Code Compliance,Inspector required access panels,116200,Approved,,"['PRJ-2024-001-SOV-02', 'PRJ-2024-001-SOV-10']",196,0,R. Williams,
+PRJ-2024-001,CO-004,2025-01-24,Owner Request,Added exhaust fan per owner directive,943700,Rejected,,"['PRJ-2024-001-SOV-11', 'PRJ-2024-001-SOV-10']",43,0,K. Thompson,Owner Rep
+PRJ-2024-001,CO-001,2025-02-04,Value Engineering,Substitution approved: Trane chiller to Daikin RTU,-292800,Rejected,,['PRJ-2024-001-SOV-07'],-58,0,J. Martinez,Owner Rep
+PRJ-2024-001,CO-011,2025-05-11,Scope Gap,Work not clearly defined in bid documents,711500,Approved,RFI-007,"['PRJ-2024-001-SOV-12', 'PRJ-2024-001-SOV-10']",134,2,R. Williams,
+PRJ-2024-001,CO-008,2025-06-09,Unforeseen Condition,Discovered structural conflict not shown on documents,229600,Approved,RFI-003,"['PRJ-2024-001-SOV-04', 'PRJ-2024-001-SOV-11']",193,0,K. Thompson,Owner Rep
+PRJ-2024-001,CO-006,2025-07-02,Code Compliance,Inspector required seismic upgrades,787800,Approved,,['PRJ-2024-001-SOV-08'],165,14,J. Martinez,Owner Rep
+PRJ-2024-001,CO-005,2025-08-12,Code Compliance,Inspector required additional smoke detectors,631700,Approved,,"['PRJ-2024-001-SOV-10', 'PRJ-2024-001-SOV-07', 'PRJ-2024-001-SOV-06']",169,5,R. Williams,Project Manager
+PRJ-2024-002,CO-013,2024-04-25,Acceleration,Premium time to maintain schedule,93200,Approved,RFI-009,"['PRJ-2024-002-SOV-04', 'PRJ-2024-002-SOV-08', 'PRJ-2024-002-SOV-02']",34,14,R. Williams,Project Manager
+PRJ-2024-002,CO-006,2024-07-15,Code Compliance,Inspector required access panels,86000,Rejected,RFI-012,"['PRJ-2024-002-SOV-05', 'PRJ-2024-002-SOV-01', 'PRJ-2024-002-SOV-13']",138,5,R. Williams,Owner Rep
+PRJ-2024-002,CO-012,2024-08-07,Coordination,Rerouting required due to fire protection conflict,381400,Approved,RFI-030,"['PRJ-2024-002-SOV-07', 'PRJ-2024-002-SOV-13', 'PRJ-2024-002-SOV-08']",21,0,K. Thompson,Project Manager
+PRJ-2024-002,CO-019,2024-08-17,Scope Gap,Work not clearly defined in bid documents,561900,Approved,RFI-009,"['PRJ-2024-002-SOV-09', 'PRJ-2024-002-SOV-14', 'PRJ-2024-002-SOV-08']",119,0,J. Martinez,Project Manager
+PRJ-2024-002,CO-005,2024-09-23,Value Engineering,Substitution approved: Carrier RTU to steel piping,-302600,Approved,RFI-003,"['PRJ-2024-002-SOV-03', 'PRJ-2024-002-SOV-09', 'PRJ-2024-002-SOV-04']",-95,0,R. Williams,Owner Rep
+PRJ-2024-002,CO-018,2024-11-01,Scope Gap,Work not clearly defined in bid documents,297300,Approved,,"['PRJ-2024-002-SOV-15', 'PRJ-2024-002-SOV-07']",188,0,R. Williams,Project Manager
+PRJ-2024-002,CO-003,2024-11-10,Owner Request,Added controls points per owner directive,444100,Approved,RFI-018,"['PRJ-2024-002-SOV-12', 'PRJ-2024-002-SOV-15', 'PRJ-2024-002-SOV-02']",34,7,J. Martinez,Owner Rep
+PRJ-2024-002,CO-016,2024-11-23,Owner Request,Added exhaust fan per owner directive,1028800,Rejected,RFI-017,"['PRJ-2024-002-SOV-13', 'PRJ-2024-002-SOV-10']",17,0,J. Martinez,Owner Rep
+PRJ-2024-002,CO-007,2025-01-04,Unforeseen Condition,Discovered abandoned piping not shown on documents,650200,Approved,,"['PRJ-2024-002-SOV-06', 'PRJ-2024-002-SOV-04']",200,7,K. Thompson,
+PRJ-2024-002,CO-009,2025-01-04,Design Error,Drawings showed incorrect equipment clearance - field correction required,478600,Approved,,"['PRJ-2024-002-SOV-04', 'PRJ-2024-002-SOV-06']",164,0,R. Williams,Project Manager
+PRJ-2024-002,CO-008,2025-02-17,Design Error,Drawings showed incorrect equipment clearance - field correction required,277600,Approved,RFI-007,['PRJ-2024-002-SOV-07'],176,2,J. Martinez,
+PRJ-2024-002,CO-011,2025-03-24,Design Error,Drawings showed incorrect pipe elevation - field correction required,460600,Approved,RFI-028,['PRJ-2024-002-SOV-06'],111,0,K. Thompson,Owner Rep
+PRJ-2024-002,CO-017,2025-05-04,Owner Request,Added chilled water piping per owner directive,1092600,Approved,RFI-006,['PRJ-2024-002-SOV-08'],137,0,K. Thompson,
+PRJ-2024-002,CO-002,2025-05-07,Unforeseen Condition,Discovered abandoned piping not shown on documents,395200,Approved,,"['PRJ-2024-002-SOV-01', 'PRJ-2024-002-SOV-03']",58,0,R. Williams,
+PRJ-2024-002,CO-020,2025-07-31,Scope Gap,Work not clearly defined in bid documents,1210000,Approved,RFI-018,"['PRJ-2024-002-SOV-04', 'PRJ-2024-002-SOV-06']",159,0,J. Martinez,
+PRJ-2024-002,CO-010,2025-08-05,Design Error,Drawings showed incorrect equipment clearance - field correction required,280200,Rejected,,"['PRJ-2024-002-SOV-03', 'PRJ-2024-002-SOV-11']",138,14,J. Martinez,Project Manager
+PRJ-2024-002,CO-001,2025-09-30,Unforeseen Condition,Discovered structural conflict not shown on documents,253500,Rejected,RFI-018,"['PRJ-2024-002-SOV-06', 'PRJ-2024-002-SOV-02', 'PRJ-2024-002-SOV-10']",160,7,R. Williams,Project Manager
+PRJ-2024-002,CO-015,2025-11-10,Scope Gap,Work not clearly defined in bid documents,298500,Approved,,['PRJ-2024-002-SOV-06'],110,0,J. Martinez,Project Manager
+PRJ-2024-002,CO-004,2025-11-23,Scope Gap,Work not clearly defined in bid documents,1124600,Rejected,RFI-015,"['PRJ-2024-002-SOV-08', 'PRJ-2024-002-SOV-14']",38,7,J. Martinez,Project Manager
+PRJ-2024-002,CO-014,2025-12-21,Value Engineering,Substitution approved: copper piping to steel piping,-396400,Rejected,RFI-011,"['PRJ-2024-002-SOV-13', 'PRJ-2024-002-SOV-02', 'PRJ-2024-002-SOV-06']",-78,0,R. Williams,Project Manager
+PRJ-2024-003,CO-004,2024-04-14,Design Error,Drawings showed incorrect pipe elevation - field correction required,125100,Approved,,"['PRJ-2024-003-SOV-10', 'PRJ-2024-003-SOV-02']",15,0,R. Williams,Project Manager
+PRJ-2024-003,CO-006,2024-04-21,Coordination,Rerouting required due to fire protection conflict,101900,Rejected,,"['PRJ-2024-003-SOV-09', 'PRJ-2024-003-SOV-02']",169,7,J. Martinez,
+PRJ-2024-003,CO-003,2024-05-24,Code Compliance,Inspector required fire dampers,99600,Approved,RFI-013,['PRJ-2024-003-SOV-01'],176,7,J. Martinez,
+PRJ-2024-003,CO-002,2024-07-02,Owner Request,Added chilled water piping per owner directive,113200,Rejected,RFI-010,['PRJ-2024-003-SOV-03'],57,0,K. Thompson,Owner Rep
+PRJ-2024-003,CO-008,2024-08-13,Owner Request,Added exhaust fan per owner directive,157700,Rejected,,"['PRJ-2024-003-SOV-10', 'PRJ-2024-003-SOV-07', 'PRJ-2024-003-SOV-13']",180,2,J. Martinez,Project Manager
+PRJ-2024-003,CO-001,2024-10-27,Code Compliance,Inspector required seismic upgrades,50900,Approved,RFI-018,"['PRJ-2024-003-SOV-03', 'PRJ-2024-003-SOV-09']",127,0,J. Martinez,Project Manager
+PRJ-2024-003,CO-005,2024-11-06,Coordination,Rerouting required due to electrical conflict,23500,Approved,RFI-017,"['PRJ-2024-003-SOV-08', 'PRJ-2024-003-SOV-13']",182,5,J. Martinez,Owner Rep
+PRJ-2024-003,CO-007,2024-11-26,Acceleration,Premium time to maintain schedule,22200,Approved,,"['PRJ-2024-003-SOV-15', 'PRJ-2024-003-SOV-06', 'PRJ-2024-003-SOV-05']",175,0,J. Martinez,Owner Rep
+PRJ-2024-004,CO-001,2024-05-02,Unforeseen Condition,Discovered abandoned piping not shown on documents,140500,Approved,RFI-006,['PRJ-2024-004-SOV-09'],105,5,J. Martinez,Project Manager
+PRJ-2024-004,CO-002,2024-05-20,Code Compliance,Inspector required seismic upgrades,368600,Rejected,RFI-028,"['PRJ-2024-004-SOV-11', 'PRJ-2024-004-SOV-12']",38,0,K. Thompson,Project Manager
+PRJ-2024-004,CO-004,2024-05-20,Unforeseen Condition,Discovered existing ductwork not shown on documents,335500,Approved,,"['PRJ-2024-004-SOV-05', 'PRJ-2024-004-SOV-09']",169,14,K. Thompson,Project Manager
+PRJ-2024-004,CO-007,2024-05-28,Coordination,Rerouting required due to electrical conflict,366400,Approved,RFI-006,"['PRJ-2024-004-SOV-06', 'PRJ-2024-004-SOV-14', 'PRJ-2024-004-SOV-13']",97,0,R. Williams,Project Manager
+PRJ-2024-004,CO-005,2024-07-04,Code Compliance,Inspector required seismic upgrades,370000,Approved,RFI-001,"['PRJ-2024-004-SOV-10', 'PRJ-2024-004-SOV-07']",136,0,J. Martinez,Project Manager
+PRJ-2024-004,CO-008,2024-08-06,Design Error,Drawings showed incorrect pipe elevation - field correction required,325900,Approved,,"['PRJ-2024-004-SOV-05', 'PRJ-2024-004-SOV-11']",158,0,K. Thompson,Project Manager
+PRJ-2024-004,CO-003,2024-08-10,Code Compliance,Inspector required additional smoke detectors,330800,Rejected,RFI-030,"['PRJ-2024-004-SOV-15', 'PRJ-2024-004-SOV-10', 'PRJ-2024-004-SOV-09']",51,0,R. Williams,
+PRJ-2024-004,CO-009,2024-08-10,Coordination,Rerouting required due to structural conflict,296500,Approved,RFI-026,"['PRJ-2024-004-SOV-04', 'PRJ-2024-004-SOV-01']",63,0,K. Thompson,
+PRJ-2024-004,CO-006,2024-08-13,Owner Request,Added controls points per owner directive,458900,Rejected,,['PRJ-2024-004-SOV-13'],128,0,J. Martinez,Owner Rep
+PRJ-2024-004,CO-012,2024-09-16,Design Error,Drawings showed incorrect pipe elevation - field correction required,57100,Rejected,,"['PRJ-2024-004-SOV-12', 'PRJ-2024-004-SOV-15']",183,0,K. Thompson,Owner Rep
+PRJ-2024-004,CO-011,2024-10-30,Code Compliance,Inspector required additional smoke detectors,379700,Approved,,"['PRJ-2024-004-SOV-05', 'PRJ-2024-004-SOV-13', 'PRJ-2024-004-SOV-12']",75,14,K. Thompson,Project Manager
+PRJ-2024-004,CO-010,2024-11-09,Scope Gap,Work not clearly defined in bid documents,528600,Approved,RFI-003,"['PRJ-2024-004-SOV-01', 'PRJ-2024-004-SOV-03', 'PRJ-2024-004-SOV-02']",90,0,R. Williams,Project Manager
+PRJ-2024-005,CO-004,2024-05-01,Value Engineering,Substitution approved: copper piping to Daikin RTU,-103000,Approved,,"['PRJ-2024-005-SOV-08', 'PRJ-2024-005-SOV-05', 'PRJ-2024-005-SOV-12']",-81,0,K. Thompson,
+PRJ-2024-005,CO-009,2024-06-12,Owner Request,Added exhaust fan per owner directive,136600,Approved,,"['PRJ-2024-005-SOV-13', 'PRJ-2024-005-SOV-11', 'PRJ-2024-005-SOV-05']",50,5,R. Williams,
+PRJ-2024-005,CO-003,2024-07-13,Value Engineering,Substitution approved: Carrier RTU to steel piping,-91300,Approved,RFI-003,['PRJ-2024-005-SOV-02'],-94,0,J. Martinez,Owner Rep
+PRJ-2024-005,CO-010,2024-07-14,Owner Request,Added exhaust fan per owner directive,322800,Approved,RFI-027,['PRJ-2024-005-SOV-07'],97,14,J. Martinez,
+PRJ-2024-005,CO-002,2024-08-25,Unforeseen Condition,Discovered asbestos insulation not shown on documents,41400,Approved,RFI-002,['PRJ-2024-005-SOV-11'],56,14,R. Williams,
+PRJ-2024-005,CO-011,2024-12-13,Design Error,Drawings showed incorrect duct size - field correction required,152600,Rejected,,"['PRJ-2024-005-SOV-10', 'PRJ-2024-005-SOV-03', 'PRJ-2024-005-SOV-12']",146,14,K. Thompson,
+PRJ-2024-005,CO-006,2025-02-11,Owner Request,Added chilled water piping per owner directive,488100,Rejected,,"['PRJ-2024-005-SOV-14', 'PRJ-2024-005-SOV-10', 'PRJ-2024-005-SOV-02']",71,2,K. Thompson,Owner Rep
+PRJ-2024-005,CO-008,2025-02-18,Scope Gap,Work not clearly defined in bid documents,266100,Rejected,RFI-022,"['PRJ-2024-005-SOV-08', 'PRJ-2024-005-SOV-15']",44,14,R. Williams,Project Manager
+PRJ-2024-005,CO-005,2025-05-25,Design Error,Drawings showed incorrect equipment clearance - field correction required,210600,Approved,,"['PRJ-2024-005-SOV-08', 'PRJ-2024-005-SOV-09']",103,5,R. Williams,Owner Rep
+PRJ-2024-005,CO-001,2025-08-01,Owner Request,Added exhaust fan per owner directive,516600,Approved,,"['PRJ-2024-005-SOV-02', 'PRJ-2024-005-SOV-06']",181,0,J. Martinez,
+PRJ-2024-005,CO-012,2025-08-28,Coordination,Rerouting required due to plumbing conflict,310300,Approved,,"['PRJ-2024-005-SOV-14', 'PRJ-2024-005-SOV-09', 'PRJ-2024-005-SOV-15']",19,7,J. Martinez,Project Manager
+PRJ-2024-005,CO-007,2025-09-26,Design Error,Drawings showed incorrect pipe elevation - field correction required,226700,Approved,RFI-027,['PRJ-2024-005-SOV-15'],138,0,J. Martinez,Owner Rep

@@ -1,0 +1,6 @@
+project_id,project_name,original_contract_value,contract_date,substantial_completion_date,retention_pct,payment_terms,gc_name,architect,engineer_of_record
+PRJ-2024-001,Mercy General Hospital - HVAC Modernization,35194000,2024-03-27,2025-09-01,0.1,Net 30,Turner Construction,SmithGroup,Henderson Engineers
+PRJ-2024-002,Riverside Office Tower - Core & Shell MEP,30260000,2024-02-03,2026-01-27,0.1,Net 30,DPR Construction,Perkins&Will,ARUP
+PRJ-2024-003,Greenfield Elementary School - New Construction,5544000,2024-02-19,2025-04-22,0.1,Net 30,DPR Construction,HOK,Henderson Engineers
+PRJ-2024-004,Summit Data Center - Phase 2 Expansion,16340000,2024-02-18,2024-11-27,0.1,Net 30,DPR Construction,HOK,Henderson Engineers
+PRJ-2024-005,Harbor View Condominiums - 3 Buildings,13650000,2024-03-27,2025-11-07,0.1,Net 30,Skanska USA,Gensler,AEI
